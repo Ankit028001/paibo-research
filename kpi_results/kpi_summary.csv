@@ -1,0 +1,5 @@
+traffic_type,packets_sent,packets_received,loss_pct,min_rtt_ms,avg_rtt_ms,max_rtt_ms,jitter_ms,throughput_mbps
+URLLC,100,100,0.00,5.409,11.548,16.036,2.482,0.078
+eMBB,50,50,0.00,5.920,14.901,19.915,1.886,0.819
+mMTC,50,50,0.00,5.304,13.634,20.538,2.516,0.0003
+V2X,100,100,0.00,6.630,13.035,29.351,3.040,0.039

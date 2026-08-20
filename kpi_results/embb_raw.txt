@@ -1,0 +1,5 @@
+[sudo] password for ankit: PING 192.168.70.131 (192.168.70.131) from 12.1.1.130 oaitun_ue1: 1400(1428) bytes of data.
+.. .  ..  . . .. .  .. .  .. .  . . ..  ..  ..  . . . ..  . . . . . ..  ..  . ..  ..  . ..  . ..  . 
+--- 192.168.70.131 ping statistics ---
+50 packets transmitted, 50 received, 0% packet loss, time 697ms
+rtt min/avg/max/mdev = 5.920/14.901/19.915/1.886 ms, pipe 2, ipg/ewma 14.227/14.437 ms
