@@ -1,0 +1,18 @@
+kpi_name,oai_source,status,value_observed,paibo_relevance
+DL SINR,DU logs (nrMAC_stats.log),Available,"16.2 dB (MAC-layer SNR estimate; RRC-level SINR field reports ""not provided"" in nrRRC_stats.log)",Core
+UL SINR,DU logs (nrMAC_stats.log),Available,22.1 dB,Core
+DL RSSI,DU logs (nrMAC_stats.log),Available,-37.3 dBm,Core
+UL RSSI,DU logs (nrMAC_stats.log),Available,-41.7 dBm,Core
+DL BLER,MAC stats (nrMAC_stats.log),Available,0.00000,Core
+UL BLER,MAC stats (nrMAC_stats.log),Available,0.00000,Core
+MCS DL,MAC stats (nrMAC_stats.log),Available,"MCS index 0 (Qm 2, low modulation order given light traffic load)",Secondary
+PRB utilization,MAC stats (nrMAC_stats.log),Partial,"UL NPRB 5 reported per allocation; no DL PRB count and no utilization percentage (allocated/total) field exists in this log",Core
+HARQ errors,MAC stats (nrMAC_stats.log),Available,"0 errors (dlsch_errors 0, ulsch_errors 0; retransmission rounds 2-4 all 0/0)",Core
+RRC state,RRC stats (nrRRC_stats.log),Available,"PDU session ID 1 status established (implies RRC_CONNECTED); literal ""RRC_CONNECTED"" string not printed in this file",Secondary
+Bearer setup time,RRC stats (nrRRC_stats.log),Not_Available,"No duration/timestamp field for setup latency; only a ""last RRC activity: N seconds ago"" staleness counter is present",Core
+F1 setup time,CU logs (/tmp/cu.log),Partial,"F1 Setup Response is logged as a timestamped event, not a duration; must be derived manually by diffing log timestamps",Secondary
+PDU session time,AMF logs (docker logs oai-amf),Partial,"PDU session establishment messages are individually timestamped; no explicit duration field, must be derived manually",Core
+E2E latency,ping tests (kpi_summary.csv),Available,"avg RTT 11.5-14.9 ms across URLLC/eMBB/mMTC/V2X tests",Core
+Throughput,ping tests (kpi_summary.csv),Partial,"0.0003-0.82 Mbps estimated from ping packet size x count / duration; no iperf-based sustained throughput test has been run",Core
+Packet loss,ping tests (kpi_summary.csv),Available,"0.00% across all 4 traffic tests (300 packets total, 0 lost)",Core
+Jitter,ping tests (kpi_summary.csv),Available,"1.9-3.0 ms (RTT mdev) across the 4 tests",Core
