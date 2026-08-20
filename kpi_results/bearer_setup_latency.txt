@@ -1,0 +1,88 @@
+Bearer Setup Latency — Derived from OAI CU/DU/AMF Log Timestamps
+===================================================================
+
+METHOD
+------
+OAI's default log output has NO wall-clock timestamps at all (confirmed by
+inspecting raw /tmp/cu.log and /tmp/du.log — just component tags, no time
+prefix). Grepping for RRCSetup/InitialUEMessage/PDUSession patterns alone
+(as originally attempted) cannot yield a latency number without timestamps
+to diff.
+
+Fix applied: OAI's logger supports a "utc_time" log option (source:
+common/utils/LOG/log.c, FLAG_UTC_TIME, gmtime_r-based, microsecond
+precision) that is NOT enabled by default. Added
+    global_log_options = ("utc_time");
+to the log_config block of both gnb-cu.sa.f1.conf and
+gnb-du.sa.band78.106prb.rfsim.pci0.conf, then restarted CU, DU, and UE
+(a fresh restart was required — the RRC/NGAP/PDU-session setup sequence
+only happens once at attach time, and the earlier session's events were
+already logged without timestamps, so they could not be retroactively
+recovered).
+
+UE re-registered successfully after the restart (new IP 12.1.1.131,
+5GMM-REGISTERED, PDU session established — same as the original run,
+confirming this is a clean, representative repeat of the same procedure).
+
+CLOCK CORRECTION
+-----------------
+CU/DU log timestamps are true UTC (gmtime_r on CLOCK_REALTIME).
+AMF's container clock is ALSO true UTC (docker exec oai-amf date -u matches
+host `date -u` exactly), but AMF's log FORMATTER prints in CEST (UTC+2) --
+confirmed via `docker exec oai-amf date` showing "17:36:24 CEST" against
+host/container UTC "15:36:24". This is a display/formatting difference,
+not an actual clock skew. All AMF timestamps below have 2 hours subtracted
+to align with CU/DU's UTC frame before computing any difference.
+
+RAW LOG EVIDENCE
+-----------------
+T1 -- DU receives the UE's initial RRC message (RRC Setup Request, carried
+      in RA Msg3 over CCCH):
+  /tmp/du.log:
+    [15:34:35.814253] [MAC]    [RAPROC] Received SDU for CCCH length 6 for UE 72d9
+
+T2 -- CU receives the same message via F1AP (Initial UL RRC Message
+      Transfer) and decodes it:
+  /tmp/cu.log:
+    [15:34:35.814583] [NR_RRC] Decoding CCCH: RNTI 72d9, payload_size 6
+
+T3 -- CU constructs/sends the NGAP Initial UE Message to the AMF:
+  /tmp/cu.log:
+    [15:34:35.824369] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+
+T4 -- AMF processes the instruction to set up the PDU session resource
+      (i.e. AMF-side handling that results in the PDU Session Resource
+      Setup Request being sent to the gNB/CU over NGAP):
+  docker logs oai-amf (raw, CEST):
+    [2026-08-20 17:34:35.972] [amf_n2] [info] Received PDU Session Resource Setup Request message, handling
+  Corrected to UTC (−2h): 15:34:35.972
+
+NOTE ON T4 PRECISION AND INTERPRETATION:
+  - AMF logs 3 decimal digits (millisecond precision); CU/DU log 6 (microsecond).
+    T4 therefore carries roughly ±0.5ms rounding uncertainty that T1-T3 don't.
+  - The task defined T4 as "AMF sends PDU Session Resource Setup Request back
+    to CU." The available AMF log line is "[amf_n2] Received PDU Session
+    Resource Setup Request message, handling" -- this is AMF's own log of
+    receiving the internal instruction to build/send that NGAP message, which
+    is the closest available proxy for the send event, not a confirmed
+    wire-send timestamp. Treat T4, and therefore NGAP setup time and total
+    latency below, as a close estimate, not an exact wire measurement.
+
+CALCULATIONS
+------------
+RRC setup time    = T2 - T1 = 15:34:35.814583 - 15:34:35.814253 = 0.000330 s  =   0.330 ms
+NGAP setup time    = T4 - T3 = 15:34:35.972000 - 15:34:35.824369 = 0.147631 s = 147.631 ms
+Total bearer setup latency = T4 - T1 = 15:34:35.972000 - 15:34:35.814253 = 0.157747 s = 157.747 ms
+
+SUMMARY
+-------
+RRC setup time (T2-T1):          0.33 ms
+NGAP/Core-side setup time (T4-T3): 147.63 ms
+Total bearer setup latency (T4-T1): 157.75 ms
+
+This is a single-sample measurement from one UE attach on an unloaded local
+RF-simulator testbed (no real RF impairments, all processes on localhost/
+loopback and a private docker bridge). It should be treated as one data
+point, not a statistically robust average -- for the patent-relevant claim,
+repeat this across multiple attach cycles to get a distribution (mean,
+p50/p95/p99) rather than relying on a single run.
