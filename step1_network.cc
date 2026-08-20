@@ -1,24 +1,4 @@
-/* ============================================================
- * step1_network.cc  —  STEP 1: Realistic 5G NR Network
- *
- * API matches 5G-LENA v3.0 / ns-3.41 exactly (based on
- * cttc-nr-demo.cc in contrib/nr/examples/)
- *
- * Builds:
- *   1 gNB  — 3.5 GHz, 20 MHz, UMi street canyon, 43 dBm
- *   N UEs  — random positions in 500m disk, random walk
- *   5G Core — NrPointToPointEpcHelper
- *   1 UDP keepalive flow per UE (establishes bearer)
- *
- * Outputs in step1_out/:
- *   topology.csv     — gNB + UE positions
- *   attachments.csv  — RRC connection events (bearer setups)
- *   flow_stats.csv   — per-flow throughput / delay / loss
- *
- * Run:
- *   ./ns3 run "scratch/step1_network"
- *   ./ns3 run "scratch/step1_network --numUes=20 --simTime=10"
- * ============================================================ */
+
 
 #include "ns3/applications-module.h"
 #include "ns3/core-module.h"
