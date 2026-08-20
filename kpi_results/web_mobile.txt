@@ -1,0 +1,30 @@
+000 0.013817
+000 0.012817
+000 0.012619
+000 0.014098
+000 0.013446
+000 0.014797
+000 0.013948
+000 0.015169
+000 0.012258
+000 0.013491
+000 0.012261
+000 0.015569
+000 0.013529
+000 0.013343
+000 0.013573
+000 0.014382
+000 0.014232
+000 0.015128
+000 0.013505
+000 0.012555
+
+=== FALLBACK NOTICE ===
+All 20 curl requests above returned HTTP 000 (connection failed) -- ext-dn
+(192.168.70.131) has no HTTP server listening on port 80. This is not an
+RF/RAN issue: iperf3 tests to the same host on the same path succeeded fine.
+Per instructions, fell back to ping as a latency/loss proxy for this traffic
+type. See web_mobile_ping_fallback.txt for the raw ping output (20 pkts,
+1s interval, 512B payload -- matching the original test's request count and
+cadence). Results from that fallback are what's recorded in kpi_summary.csv
+under Web_Mobile.

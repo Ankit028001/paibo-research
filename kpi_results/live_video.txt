@@ -1,0 +1,15 @@
+Connecting to host 192.168.70.131, port 5201
+[  5] local 12.1.1.130 port 46281 connected to 192.168.70.131 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-5.00   sec  2.38 MBytes  4.00 Mbits/sec  2083  
+[  5]   5.00-10.00  sec  2.38 MBytes  4.00 Mbits/sec  2084  
+[  5]  10.00-15.00  sec  2.38 MBytes  4.00 Mbits/sec  2083  
+[  5]  15.00-20.00  sec  2.38 MBytes  4.00 Mbits/sec  2083  
+[  5]  20.00-25.00  sec  2.38 MBytes  4.00 Mbits/sec  2084  
+[  5]  25.00-30.00  sec  2.38 MBytes  4.00 Mbits/sec  2083  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-30.00  sec  14.3 MBytes  4.00 Mbits/sec  0.000 ms  0/12500 (0%)  sender
+[  5]   0.00-30.06  sec  14.3 MBytes  3.99 Mbits/sec  2.687 ms  0/12499 (0%)  receiver
+
+iperf Done.
