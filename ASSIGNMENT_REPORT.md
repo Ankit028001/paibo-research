@@ -55,13 +55,15 @@ OAI does not expose bearer setup time as a single directly available KPI in the 
 | PRB utilization | MAC stats (nrMAC_stats.log) | Partial | UL NPRB 5 reported per allocation; no DL PRB count and no utilization percentage (allocated/total) field exists in this log | Core |
 | HARQ errors | MAC stats (nrMAC_stats.log) | Available | 0 errors (dlsch_errors 0, ulsch_errors 0; retransmission rounds 2-4 all 0/0) | Core |
 | RRC state | RRC stats (nrRRC_stats.log) | Available | PDU session ID 1 status established (implies RRC_CONNECTED); literal "RRC_CONNECTED" string not printed in this file | Secondary |
-| Bearer setup time | RRC stats (nrRRC_stats.log) | Not_Available | No duration/timestamp field for setup latency; only a "last RRC activity: N seconds ago" staleness counter is present | Core |
+| Bearer setup time | RRC stats (nrRRC_stats.log) | Available (derived) | 157.75ms total (RRC: 0.33ms + NGAP/Core: 147.63ms), derived by enabling utc_time logging and correlating CU+DU+AMF timestamps | Core |
 | F1 setup time | CU logs (/tmp/cu.log) | Partial | F1 Setup Response is logged as a timestamped event, not a duration; must be derived manually by diffing log timestamps | Secondary |
 | PDU session time | AMF logs (docker logs oai-amf) | Partial | PDU session establishment messages are individually timestamped; no explicit duration field, must be derived manually | Core |
 | E2E latency | ping tests (kpi_summary.csv) | Available | avg RTT 11.5-14.9 ms across URLLC/eMBB/mMTC/V2X tests | Core |
 | Throughput | ping tests (kpi_summary.csv) | Available | 0.0003-46.8 Mbps (iperf3 TCP: 46.8 Mbps; iperf3 UDP: 4-8 Mbps; ICMP estimated: 0.0003-0.82 Mbps) | Core |
 | Packet loss | ping tests (kpi_summary.csv) | Available | 0.00% across all 4 traffic tests (300 packets total, 0 lost) | Core |
 | Jitter | ping tests (kpi_summary.csv) | Available | 1.9-3.0 ms (RTT mdev) across the 4 tests | Core |
+
+**Bearer Setup Latency Baseline (Derived):** By enabling UTC timestamp logging in OAI (utc_time option in CU and DU config) and correlating events across CU, DU, and AMF logs, bearer setup latency was derived as 157.75ms — dominated by Core-side NGAP signaling (147.63ms) rather than the radio interface (0.33ms). Full derivation methodology is in kpi_results/bearer_setup_latency.txt.
 
 ## Limitations
 
