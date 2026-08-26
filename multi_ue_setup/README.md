@@ -136,7 +136,7 @@ sudo ./05_run_traffic.sh 1 16            # each UE's profile-specific test, conc
 ./06_aggregate_throughput.sh             # per-UE throughput + summed aggregate cell throughput
 ```
 
-### KPI tiers (per your request to distinguish these explicitly)
+### KPI tiers
 
 - **Per-UE** (one value per connected UE, tied to its radio/NAS context,
   not to a specific traffic test): DL/UL SINR, DL/UL RSSI, DL/UL BLER, MCS
