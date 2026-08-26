@@ -1,0 +1,20 @@
+metric,value,unit,note
+registered_ues,4,count,of 16 MAX_MOBILES_PER_GNB ceiling
+unique_pfcp_seids,4,count,"0x4,0x5,0x6,0x7 -- no collisions"
+aggregate_packets_sent,200,packets,50 per UE x 4 UEs
+aggregate_packets_received,200,packets,
+aggregate_packet_loss,0.0,%,
+aggregate_offered_throughput,1.472,kbps,"sum of per-UE mMTC ping offered load (92B/2s each); NOT a measured max-capacity throughput, just this test's traffic level"
+du_cpu_before,184,%,"single value, unchanged before/during/after"
+du_cpu_during,184,%,
+du_cpu_after,184,%,
+cu_cpu_before,5.0,%,
+cu_cpu_during,5.0,%,
+cu_cpu_after,5.0,%,
+host_mem_used_before,4975,MB,of 15890MB total
+host_mem_used_during,4992,MB,
+host_mem_used_after,4948,MB,
+f1_du_cu,stable,status,no new F1 setup during this test; DU/CU not restarted
+ngap_cu_amf,stable,status,4 active UE NGAP contexts
+pfcp_smf_upf,"stable, 0 rejections",status,4 active sessions
+prb_utilization_pct,not directly available,N/A,"this OAI build logs only per-allocation NPRB, no aggregate DL/UL PRB utilization % field -- same limitation as single-UE baseline"

@@ -1,0 +1,94 @@
+=== process snapshot at failure ===
+root       23822   23459  0 16:21 pts/5    00:00:00 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       23844   23822  0 16:21 pts/6    00:00:00 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       23845   23844 99 16:21 pts/6    04:40:08 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       23846   23845  0 16:21 pts/6    00:00:00 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       61526   22371  0 16:39 pts/3    00:00:00 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+root       61527   61526  0 16:39 pts/4    00:00:00 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+root       61528   61527  5 16:39 pts/4    00:06:56 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+root       61529   61528  0 16:39 pts/4    00:00:00 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+ankit     275127  275124  0 18:16 pts/8    00:00:00 bash -c cd /home/ankit/oai/openairinterface5g/cmake_targets/ran_build/build && date -u '+%Y-%m-%d %H:%M:%S UTC' && sudo -n ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 > /home/ankit/paibo-research/_runtime/ue1_relaunch.log 2>&1
+root      275129  275127  0 18:16 pts/8    00:00:00 sudo -n ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+root      275130  275129  0 18:16 pts/10   00:00:00 sudo -n ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+root      275131  275130 46 18:16 pts/10   00:18:06 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+root      275132  275131  0 18:16 pts/10   00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+root      279844  279836 47 18:18 ?        00:17:53 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000032 --rfsimulator.[0].serveraddr 10.202.1.100
+root      279846  279844  0 18:18 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000032 --rfsimulator.[0].serveraddr 10.202.1.100
+root      279932  279836 48 18:18 ?        00:18:04 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000033 --rfsimulator.[0].serveraddr 10.203.1.100
+root      279934  279932  0 18:18 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000033 --rfsimulator.[0].serveraddr 10.203.1.100
+root      280041  279836 48 18:18 ?        00:17:56 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000034 --rfsimulator.[0].serveraddr 10.204.1.100
+root      280043  280041  0 18:18 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000034 --rfsimulator.[0].serveraddr 10.204.1.100
+root      332038  332025 32 18:42 ?        00:04:21 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000035 --rfsimulator.[0].serveraddr 10.205.1.100
+root      332049  332038  0 18:42 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000035 --rfsimulator.[0].serveraddr 10.205.1.100
+root      332144  332025 31 18:42 ?        00:04:16 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000036 --rfsimulator.[0].serveraddr 10.206.1.100
+root      332146  332144  0 18:42 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000036 --rfsimulator.[0].serveraddr 10.206.1.100
+root      332266  332025 30 18:42 ?        00:04:07 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000037 --rfsimulator.[0].serveraddr 10.207.1.100
+root      332268  332266  0 18:42 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000037 --rfsimulator.[0].serveraddr 10.207.1.100
+root      332433  332025 29 18:42 ?        00:03:54 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000038 --rfsimulator.[0].serveraddr 10.208.1.100
+root      332436  332433  0 18:42 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000038 --rfsimulator.[0].serveraddr 10.208.1.100
+root      352682  352674 21 18:51 ?        00:00:54 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000039 --rfsimulator.[0].serveraddr 10.209.1.100
+root      352684  352682  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000039 --rfsimulator.[0].serveraddr 10.209.1.100
+root      352711  352674 18 18:51 ?        00:00:45 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000040 --rfsimulator.[0].serveraddr 10.210.1.100
+root      352713  352711  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000040 --rfsimulator.[0].serveraddr 10.210.1.100
+root      352792  352674 18 18:51 ?        00:00:45 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000041 --rfsimulator.[0].serveraddr 10.211.1.100
+root      352799  352792  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000041 --rfsimulator.[0].serveraddr 10.211.1.100
+root      352908  352674 17 18:51 ?        00:00:44 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000042 --rfsimulator.[0].serveraddr 10.212.1.100
+root      352910  352908  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000042 --rfsimulator.[0].serveraddr 10.212.1.100
+root      353002  352674 17 18:51 ?        00:00:43 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000043 --rfsimulator.[0].serveraddr 10.213.1.100
+root      353004  353002  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000043 --rfsimulator.[0].serveraddr 10.213.1.100
+root      353207  352674 17 18:51 ?        00:00:41 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000044 --rfsimulator.[0].serveraddr 10.214.1.100
+root      353209  353207  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000044 --rfsimulator.[0].serveraddr 10.214.1.100
+root      353245  352674 16 18:51 ?        00:00:39 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000045 --rfsimulator.[0].serveraddr 10.215.1.100
+root      353247  353245  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000045 --rfsimulator.[0].serveraddr 10.215.1.100
+root      353323  352674 15 18:51 ?        00:00:37 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000046 --rfsimulator.[0].serveraddr 10.216.1.100
+root      353325  353323  0 18:51 ?        00:00:00 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000046 --rfsimulator.[0].serveraddr 10.216.1.100
+
+=== AMF UE table at failure ===
+   |  Index |     5GMM State     |                IMSI/SUPI               |        GUTI        |   RAN UE NGAP ID   |   AMF UE NGAP ID   |        PLMN        |       Cell Id      |
+   |    1   |   5GMM-REGISTERED  |             208950000000031            |20895010041509947439|        0x01        |        0x0E        |       208,95       |      0000e014e     |
+   |    2   |   5GMM-REGISTERED  |             208950000000032            |20895010041651185834|        0x02        |        0x0F        |       208,95       |      0000e014e     |
+   |    3   |   5GMM-REGISTERED  |             208950000000033            |20895010041022370690|        0x03        |        0x10        |       208,95       |      0000e014e     |
+   |    4   |   5GMM-REGISTERED  |             208950000000034            |20895010041246437250|        0x04        |        0x11        |       208,95       |      0000e014e     |
+   |    5   |   5GMM-REGISTERED  |             208950000000035            |20895010041647567830|        0x05        |        0x12        |       208,95       |      0000e014e     |
+   |    6   |   5GMM-REGISTERED  |             208950000000036            |20895010041286488872|        0x06        |        0x13        |       208,95       |      0000e014e     |
+   |    7   |   5GMM-REGISTERED  |             208950000000037            |20895010041908678856|        0x07        |        0x14        |       208,95       |      0000e014e     |
+   |    8   |   5GMM-REGISTERED  |             208950000000038            |20895010041249387290|        0x08        |        0x15        |       208,95       |      0000e014e     |
+   |    9   |   5GMM-REGISTERED  |             208950000000039            |20895010041773528735|        0x09        |        0x16        |       208,95       |      0000e014e     |
+   |   10   |   5GMM-REGISTERED  |             208950000000040            |20895010041016258583|        0x0A        |        0x17        |       208,95       |      0000e014e     |
+   |   11   |   5GMM-REGISTERED  |             208950000000041            |20895010041312657010|        0x0B        |        0x18        |       208,95       |      0000e014e     |
+   |   12   |   5GMM-REGISTERED  |             208950000000042            |20895010041698763090|        0x0C        |        0x19        |       208,95       |      0000e014e     |
+   |   13   |   5GMM-REGISTERED  |             208950000000043            |20895010041110764406|        0x0D        |        0x1A        |       208,95       |      0000e014e     |
+   |   14   |   5GMM-REGISTERED  |             208950000000044            |20895010041368229586|        0x0E        |        0x1B        |       208,95       |      0000e014e     |
+   |   15   |   5GMM-REGISTERED  |             208950000000045            |20895010041115935789|        0x0F        |        0x1C        |       208,95       |      0000e014e     |
+   |   16   |   5GMM-REGISTERED  |             208950000000046            |20895010041137597231|        0x10        |        0x1D        |       208,95       |      0000e014e     |
+   |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+=== DU/CU CPU/mem at failure ===
+    PID %CPU %MEM     ELAPSED
+  23845  181  6.5    02:34:06
+    PID %CPU %MEM     ELAPSED
+  61528  5.0  0.9    02:16:46
+               total        used        free      shared  buff/cache   available
+Mem:           15890       13292         761           4        1836        2331
+Swap:           4096           0        4096
+
+=== SMF process CPU at failure ===
+UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+root                235889              235864              0                   17:58               ?                   00:00:00            /openair-smf/bin/oai_smf -c /openair-smf/etc/config.yaml -o
+
+=== namespaces ===
+ue16 (id: 23)
+ue15 (id: 22)
+ue14 (id: 21)
+ue13 (id: 20)
+ue12 (id: 19)
+ue11 (id: 18)
+ue10 (id: 17)
+ue9 (id: 16)
+ue8 (id: 15)
+ue7 (id: 14)
+ue6 (id: 13)
+ue5 (id: 12)
+ue4 (id: 11)
+ue3 (id: 10)
+ue2 (id: 9)

@@ -1,0 +1,16 @@
+ue1 rnti=4fe0 UE 4fe0: ulsch_rounds 7035/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.0 (+2.0) RSSI -41.6 CCE fail 0
+ue2 rnti=bba8 UE bba8: ulsch_rounds 191/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 23.5 (+3.5) RSSI -41.6 CCE fail 0
+ue3 rnti=fdaa UE fdaa: ulsch_rounds 134/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00008 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.4 (+2.4) RSSI -41.6 CCE fail 2
+ue4 rnti=32ac UE 32ac: ulsch_rounds 112/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00064 MCS (0) 1 (Qm 2 deltaMCS 0) NPRB 5 SNR 23.5 (+3.5) RSSI -41.1 CCE fail 3
+ue5 rnti=5c06 UE 5c06: ulsch_rounds 91/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00278 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.3 (+2.3) RSSI -41.7 CCE fail 3
+ue6 rnti=a957 UE a957: ulsch_rounds 111/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01094 MCS (0) 9 (Qm 2 deltaMCS 0) NPRB 5 SNR 21.8 (+1.8) RSSI -41.8 CCE fail 3
+ue7 rnti=8741 UE 8741: ulsch_rounds 57/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01668 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.2 (+2.2) RSSI -41.8 CCE fail 6
+ue8 rnti=62af UE 62af: ulsch_rounds 56/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.03874 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 21.9 (+1.9) RSSI -42.0 CCE fail 6
+ue9 rnti=0872 UE 0872: ulsch_rounds 28/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.06561 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.3 (+2.3) RSSI -41.9 CCE fail 6
+ue10 rnti=c394 
+ue11 rnti=e731 
+ue12 rnti=ea33 
+ue13 rnti=9c32 
+ue14 rnti=6f8c 
+ue15 rnti=9582 
+ue16 rnti=c9b3 

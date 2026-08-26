@@ -1,0 +1,55 @@
+PING 192.168.70.130 (192.168.70.130) from 12.1.1.132 oaitun_ue1: 50(78) bytes of data.
+58 bytes from 192.168.70.130: icmp_seq=1 ttl=63 time=216 ms
+58 bytes from 192.168.70.130: icmp_seq=2 ttl=63 time=73.9 ms
+58 bytes from 192.168.70.130: icmp_seq=3 ttl=63 time=120 ms
+58 bytes from 192.168.70.130: icmp_seq=4 ttl=63 time=141 ms
+58 bytes from 192.168.70.130: icmp_seq=5 ttl=63 time=142 ms
+58 bytes from 192.168.70.130: icmp_seq=6 ttl=63 time=116 ms
+58 bytes from 192.168.70.130: icmp_seq=7 ttl=63 time=113 ms
+58 bytes from 192.168.70.130: icmp_seq=8 ttl=63 time=146 ms
+58 bytes from 192.168.70.130: icmp_seq=9 ttl=63 time=95.2 ms
+58 bytes from 192.168.70.130: icmp_seq=10 ttl=63 time=85.3 ms
+58 bytes from 192.168.70.130: icmp_seq=11 ttl=63 time=52.5 ms
+58 bytes from 192.168.70.130: icmp_seq=12 ttl=63 time=92.2 ms
+58 bytes from 192.168.70.130: icmp_seq=13 ttl=63 time=87.6 ms
+58 bytes from 192.168.70.130: icmp_seq=14 ttl=63 time=79.7 ms
+58 bytes from 192.168.70.130: icmp_seq=15 ttl=63 time=86.0 ms
+58 bytes from 192.168.70.130: icmp_seq=16 ttl=63 time=98.5 ms
+58 bytes from 192.168.70.130: icmp_seq=17 ttl=63 time=86.3 ms
+58 bytes from 192.168.70.130: icmp_seq=18 ttl=63 time=103 ms
+58 bytes from 192.168.70.130: icmp_seq=19 ttl=63 time=95.0 ms
+58 bytes from 192.168.70.130: icmp_seq=20 ttl=63 time=86.7 ms
+58 bytes from 192.168.70.130: icmp_seq=21 ttl=63 time=49.7 ms
+58 bytes from 192.168.70.130: icmp_seq=22 ttl=63 time=89.0 ms
+58 bytes from 192.168.70.130: icmp_seq=23 ttl=63 time=86.1 ms
+58 bytes from 192.168.70.130: icmp_seq=24 ttl=63 time=106 ms
+58 bytes from 192.168.70.130: icmp_seq=25 ttl=63 time=87.1 ms
+58 bytes from 192.168.70.130: icmp_seq=26 ttl=63 time=104 ms
+58 bytes from 192.168.70.130: icmp_seq=27 ttl=63 time=107 ms
+58 bytes from 192.168.70.130: icmp_seq=28 ttl=63 time=95.3 ms
+58 bytes from 192.168.70.130: icmp_seq=29 ttl=63 time=107 ms
+58 bytes from 192.168.70.130: icmp_seq=30 ttl=63 time=80.0 ms
+58 bytes from 192.168.70.130: icmp_seq=31 ttl=63 time=111 ms
+58 bytes from 192.168.70.130: icmp_seq=32 ttl=63 time=101 ms
+58 bytes from 192.168.70.130: icmp_seq=33 ttl=63 time=112 ms
+58 bytes from 192.168.70.130: icmp_seq=34 ttl=63 time=105 ms
+58 bytes from 192.168.70.130: icmp_seq=35 ttl=63 time=147 ms
+58 bytes from 192.168.70.130: icmp_seq=36 ttl=63 time=117 ms
+58 bytes from 192.168.70.130: icmp_seq=37 ttl=63 time=114 ms
+58 bytes from 192.168.70.130: icmp_seq=38 ttl=63 time=121 ms
+58 bytes from 192.168.70.130: icmp_seq=39 ttl=63 time=119 ms
+58 bytes from 192.168.70.130: icmp_seq=40 ttl=63 time=110 ms
+58 bytes from 192.168.70.130: icmp_seq=41 ttl=63 time=103 ms
+58 bytes from 192.168.70.130: icmp_seq=42 ttl=63 time=126 ms
+58 bytes from 192.168.70.130: icmp_seq=43 ttl=63 time=74.2 ms
+58 bytes from 192.168.70.130: icmp_seq=44 ttl=63 time=101 ms
+58 bytes from 192.168.70.130: icmp_seq=45 ttl=63 time=122 ms
+58 bytes from 192.168.70.130: icmp_seq=46 ttl=63 time=129 ms
+58 bytes from 192.168.70.130: icmp_seq=47 ttl=63 time=67.1 ms
+58 bytes from 192.168.70.130: icmp_seq=48 ttl=63 time=93.8 ms
+58 bytes from 192.168.70.130: icmp_seq=49 ttl=63 time=96.9 ms
+58 bytes from 192.168.70.130: icmp_seq=50 ttl=63 time=126 ms
+
+--- 192.168.70.130 ping statistics ---
+50 packets transmitted, 50 received, 0% packet loss, time 49074ms
+rtt min/avg/max/mdev = 49.687/104.472/216.037/26.504 ms

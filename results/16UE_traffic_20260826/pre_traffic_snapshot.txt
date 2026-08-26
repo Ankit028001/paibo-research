@@ -1,0 +1,14 @@
+2026-08-25 14:28:35 UTC
+ankit      86169   86168  0 19:50 pts/3    00:00:00 bash -c mkdir -p /home/ankit/paibo-research/results/16UE_clean_20260826 && cd /home/ankit/oai/openairinterface5g && date -u '+%Y-%m-%d %H:%M:%S UTC' && sudo -n ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf > /home/ankit/paibo-research/results/16UE_clean_20260826/cu_stdout.log 2>&1
+root       86172   86169  0 19:50 pts/3    00:00:00 sudo -n ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+root       86173   86172  0 19:50 pts/4    00:00:00 sudo -n ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+root       86174   86173  5 19:50 pts/4    00:00:26 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+root       86175   86174  0 19:50 pts/4    00:00:00 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+ankit      86551   86549  0 19:50 pts/5    00:00:00 bash -c cd /home/ankit/oai/openairinterface5g && date -u '+%Y-%m-%d %H:%M:%S UTC' && sudo -n ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator > /home/ankit/paibo-research/results/16UE_clean_20260826/du_stdout.log 2>&1
+root       86553   86551  0 19:50 pts/5    00:00:00 sudo -n ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       86554   86553  0 19:50 pts/6    00:00:00 sudo -n ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       86555   86554 99 19:50 pts/6    00:11:45 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+root       86556   86555  0 19:50 pts/6    00:00:00 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+               total        used        free      shared  buff/cache   available
+Mem:            23Gi        13Gi       8.2Gi       4.0Mi       2.2Gi        10Gi
+Swap:          4.0Gi          0B       4.0Gi

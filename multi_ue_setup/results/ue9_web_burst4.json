@@ -1,0 +1,97 @@
+{
+	"start":	{
+		"connected":	[{
+				"socket":	6,
+				"local_host":	"12.1.1.138",
+				"local_port":	46422,
+				"remote_host":	"192.168.70.130",
+				"remote_port":	5209
+			}],
+		"version":	"iperf 3.9",
+		"system_info":	"Linux DESKTOP-51SF9HS 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64",
+		"timestamp":	{
+			"time":	"Wed, 26 Aug 2026 12:35:40 GMT",
+			"timesecs":	1787747740
+		},
+		"connecting_to":	{
+			"host":	"192.168.70.130",
+			"port":	5209
+		},
+		"cookie":	"ogvl2qu5kmsws7umizmxnmsoiixdpjdjeo6m",
+		"sock_bufsize":	0,
+		"sndbuf_actual":	212992,
+		"rcvbuf_actual":	212992,
+		"test_start":	{
+			"protocol":	"UDP",
+			"num_streams":	1,
+			"blksize":	1448,
+			"omit":	0,
+			"duration":	1,
+			"bytes":	0,
+			"blocks":	0,
+			"reverse":	0,
+			"tos":	0
+		}
+	},
+	"intervals":	[{
+			"streams":	[{
+					"socket":	6,
+					"start":	0,
+					"end":	1.000037,
+					"seconds":	1.0000369548797607,
+					"bytes":	1198944,
+					"bits_per_second":	9591197.5584474653,
+					"packets":	828,
+					"omitted":	false,
+					"sender":	true
+				}],
+			"sum":	{
+				"start":	0,
+				"end":	1.000037,
+				"seconds":	1.0000369548797607,
+				"bytes":	1198944,
+				"bits_per_second":	9591197.5584474653,
+				"packets":	828,
+				"omitted":	false,
+				"sender":	true
+			}
+		}],
+	"end":	{
+		"streams":	[{
+				"udp":	{
+					"socket":	6,
+					"start":	0,
+					"end":	1.000037,
+					"seconds":	1.000037,
+					"bytes":	1198944,
+					"bits_per_second":	9591197.12570635,
+					"jitter_ms":	14.349134852666589,
+					"lost_packets":	0,
+					"packets":	828,
+					"lost_percent":	0,
+					"out_of_order":	0,
+					"sender":	true
+				}
+			}],
+		"sum":	{
+			"start":	0,
+			"end":	14.77704,
+			"seconds":	14.77704,
+			"bytes":	1198944,
+			"bits_per_second":	9591197.12570635,
+			"jitter_ms":	14.349134852666589,
+			"lost_packets":	0,
+			"packets":	828,
+			"lost_percent":	0,
+			"sender":	true
+		},
+		"cpu_utilization_percent":	{
+			"host_total":	4.83166989105414,
+			"host_user":	1.2308903437780709,
+			"host_system":	3.6006371902132366,
+			"remote_total":	0.086985356640209649,
+			"remote_user":	0.0383462014225159,
+			"remote_system":	0.0486342066822153
+		}
+	}
+}

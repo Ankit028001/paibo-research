@@ -1,0 +1,5 @@
+ue_id,use_case,imsi,ipv4,pfcp_seid,rnti,5gmm_state,pdu_session_state,rrc_state,dl_sinr_db,ul_sinr_db,rsrp_dbm,dl_bler_pct,ul_bler_pct,mcs_dl,harq_errors,pdu_setup_latency_ms,ping_sent,ping_recv,packet_loss_pct,rtt_min_ms,rtt_avg_ms,rtt_max_ms,jitter_mdev_ms,cpu_pct,mem_pct
+1,mMTC,208950000000031,12.1.1.149,0x4,cfef,REGISTERED,Established,RRC_CONNECTED (inferred: active PDU session + ongoing MAC scheduling),43.3,N/A (not logged separately from DL in this build),-42,0.0,0.0,not logged at this traffic level,0,7.0,50,50,0.0,30.465,41.127,52.456,5.588,56.1,4.4
+2,mMTC,208950000000032,12.1.1.150,0x5,3593,REGISTERED,Established,RRC_CONNECTED (inferred),43.3,N/A,-42,0.0,0.0,not logged at this traffic level,0,6.0,50,50,0.0,14.837,38.676,50.117,9.049,57.6,4.4
+3,mMTC,208950000000033,12.1.1.151,0x6,69ff,REGISTERED,Established,RRC_CONNECTED (inferred),42.6,N/A,-42,0.0,0.0,not logged at this traffic level,0,7.0,50,50,0.0,24.688,42.286,50.977,4.28,58.0,4.4
+4,mMTC,208950000000034,12.1.1.152,0x7,f97b,REGISTERED,Established,RRC_CONNECTED (inferred),42.6,N/A,-42,0.0,0.0,not logged at this traffic level,0,7.0,50,50,0.0,15.712,41.205,51.908,6.647,57.1,4.4

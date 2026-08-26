@@ -1,0 +1,924 @@
+CMDLINE: "./cmake_targets/ran_build/build/nr-softmodem" "-O" "targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf" 
+[13:42:03.332855] [UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+[0m[13:42:04.333630] [OPT]    OPT disabled
+[0m[13:42:04.333647] [HW]     Version: Branch: develop Abrev. Hash: 2b69bde6ae Date: Fri Aug 14 09:43:59 2026 +0200
+[0m[13:42:04.333658] [GNB_APP] Initialized RAN Context: RC.nb_nr_inst = 1, RC.nb_nr_macrlc_inst = 0, RC.nb_nr_L1_inst = 0, RC.nb_RU = 0, RC.nb_nr_CC[0] = 0
+[0m[13:42:04.333755] [GNB_APP] F1AP: gNB_CU_id[0] 3584
+[0m[13:42:04.333757] [GNB_APP] F1AP: gNB_CU_name[0] cu-rfsim
+[0m[13:42:04.333766] [UTIL]   threadCreate() for TASK_CU_F1: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.338854] [GNB_APP] gNB 0: neighbour_list has 0 serving cell(s)
+[0m[13:42:04.338852] [F1AP]   Starting F1AP at CU
+[0m[13:42:04.338929] [F1AP]   F1AP_CU_SCTP_REQ(create socket) for 127.0.0.3 len 10
+[0m[13:42:04.338938] [GTPU]   Initializing UDP for local address 127.0.0.3 with port 2152
+[0m[13:42:04.338959] [GNB_APP] SDAP UL/DL headers in RRC are present
+[0m[13:42:04.338960] [GTPU]   Created gtpu instance id: 79
+[0m[13:42:04.338969] [UTIL]   threadCreate() for GTPrx_79: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.338975] [GNB_APP] gNB 0 SIB2 config: q_Hyst=0 dB, cellReselPrio=0, q_RxLevMin=-56 dBm, t_ReselectionNR=1 s
+[0m[13:42:04.352146] [GNB_APP] Parsed IPv4 address for NG AMF: 192.168.70.129
+[0m[13:42:04.352172] [UTIL]   threadCreate() for TASK_SCTP: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.356891] [X2AP]   X2AP is disabled.
+[0m[13:42:04.356929] [UTIL]   threadCreate() for TASK_NGAP: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.361553] [UTIL]   threadCreate() for TASK_NRPPA: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.361622] [NGAP]   Registered new gNB[0] and macro gNB id 3584
+[0m[13:42:04.361630] [NGAP]   [gNB 0] check the amf registration state
+[0m[32m[13:42:04.361915] [NGAP]   Send NGSetupRequest to AMF
+[0m[13:42:04.361921] [NGAP]   3584 -> 0000e000
+[0m[13:42:04.362579] [NGAP]   Supported PLMN 0: MCC=208 MNC=95
+[0m[13:42:04.362585] [NGAP]   Supported slice (PLMN 0): SST=0x01 SD=000
+[0m[13:42:04.362587] [NGAP]   Supported slice (PLMN 0): SST=0x01 SD=001
+[0m[13:42:04.362589] [NGAP]   Supported slice (PLMN 0): SST=0xde SD=00123
+[0m[93m[13:42:04.362591] [ITTI]   tried to remove a non existing timer
+[0m[32m[13:42:04.362595] [NGAP]   Received NGSetupResponse from AMF
+[0m[13:42:04.366205] [UTIL]   threadCreate() for TASK_RRC_GNB: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.366230] [NRPPA]  Starting NRPPA layer
+[0m[13:42:04.370793] [GTPU]   Configuring GTPu
+[0m[13:42:04.370812] [GTPU]   SA mode 
+[0m[13:42:04.370816] [GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
+[0m[13:42:04.370818] [GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+[0m[13:42:04.370819] [NR_RRC] Entering main loop of NR_RRC message task
+[0m[13:42:04.370841] [GTPU]   Created gtpu instance id: 82
+[0m[13:42:04.370848] [UTIL]   threadCreate() for GTPrx_82: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.375422] [UTIL]   threadCreate() for TASK_GNB_APP: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.375502] [NR_RRC] Accepting new CU-UP ID 3584 name cu-rfsim (assoc_id -1)
+[0m[13:42:04.379999] [UTIL]   threadCreate() for TASK_GTPV1_U: creating thread with affinity ffffffff, priority 50
+[0m[13:42:04.380213] [GNB_APP] [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 1
+[0m[13:42:04.385818] [UTIL]   threadCreate() for time source realtime: creating thread with affinity ffffffff, priority 2
+[0m[13:42:04.390372] [UTIL]   time manager configuration: [time source: reatime] [mode: standalone] [server IP: 127.0.0.1} [server port: 7374] (server IP/port not used)
+[0m[13:42:14.571970] [NR_RRC] Received F1 Setup Request from gNB_DU 3584 (du-rfsim) on assoc_id 6
+[0m[13:42:14.571984] [NR_RRC] Accepting DU 3584 (du-rfsim) (RRC version 17.3.0)
+[0m[13:42:14.572033] [NR_RRC] Added cell 12345678 to DU cells array (total cells = 1)
+[0m[13:42:14.572035] [NR_RRC] DU 3584: Added cell 12345678
+[0m[13:42:14.572037] [NR_RRC] DU 3584 (du-rfsim): sending F1 Setup Response
+[0m[13:42:14.572441] [NR_RRC] cell PLMN 208.95 Cell ID 12345678 is in service
+[0m[13:42:58.489332] [NR_RRC] Decoding CCCH: RNTI 69dd, payload_size 6
+[0m[32m[13:42:58.489351] [NR_RRC] [--] (cellID 0, UE ID 1 RNTI 69dd) Create UE context: CU UE ID 1 DU UE ID 27101 (rnti: 69dd, random ue id 8846691aec000000)
+[0m[13:42:58.489356] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:42:58.489362] [RRC]    activate SRB 1 of UE 1
+[0m[32m[13:42:58.489367] [NR_RRC] [DL] (cellID bc614e, UE ID 1 RNTI 69dd) Send RRC Setup
+[0m[32m[13:42:58.498863] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:42:58.498883] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:42:58.498901] [NGAP]   UE 1: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:42:58.498923] [NGAP]   Create UE context (ID 1) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:42:58.536416] [NR_RRC] [DL] (cellID bc614e, UE ID 1 RNTI 69dd) Send DL Information Transfer [42 bytes]
+[0m[32m[13:42:58.549838] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:42:58.589192] [NR_RRC] [DL] (cellID bc614e, UE ID 1 RNTI 69dd) Send DL Information Transfer [21 bytes]
+[0m[32m[13:42:58.599125] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received RRC UL Information Transfer [60 bytes]
+[0m[13:42:58.612335] [NGAP]   Initial Context Setup UE RAN ID 1 UE AMF ID 1: 0 PDU session(s)
+[0m[32m[13:42:58.612386] [NR_RRC] [--] (cellID bc614e, UE ID 1 RNTI 69dd) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:42:58.612469] [NR_RRC] [UE 69dd] Saved security key 49
+[0m[13:42:58.615945] [NR_RRC] UE 1 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:42:58.625755] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received Security Mode Complete
+[0m[13:42:58.627628] [NR_RRC] UE 1: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 1)
+[0m[32m[13:42:58.637839] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received UE capabilities
+[0m[13:42:58.637878] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:42:58.638039] [NR_RRC] [DL] (cellID bc614e, UE ID 1 RNTI 69dd) Send DL Information Transfer [53 bytes]
+[0m[13:42:58.638088] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:42:58.648245] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:42:58.648395] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received RRC UL Information Transfer [35 bytes]
+[0m[13:42:58.662867] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:42:58.663458] [NR_RRC] UE 1: received PDU Session Resource Setup Request
+[0m[13:42:58.663473] [NR_RRC] UE 1: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:42:58.663476] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:42:58.663479] [NR_RRC] UE 1: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:42:58.663481] [NR_RRC] UE 1: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:42:58.664514] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000001, Addr=192.168.70.138
+[0m[32m[13:42:58.664535] [NR_RRC] [--] (cellID bc614e, UE ID 1 RNTI 69dd) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:42:58.664539] [RRC]    UE 1 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:42:58.664553] [E1AP]   UE 1: set up PDU session ID 1 (1 bearers)
+[0m[13:42:58.664557] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:42:58.664562] [GTPU]   [79] UE ID 1: Create tunnel TEID incoming 0xa0ddba99 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[93m[13:42:58.664566] [SDAP]    Could not find SDAP entity: entity list empty (ue_id=1 pdu_session_id=1)
+[0m[13:42:58.664575] [SDAP]   Creating SDAP entity ue_id=1 pdu_session_id=1
+[0m[13:42:58.664576] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:42:58.664580] [PDCP]   Added DRB 1 to UE ID 1
+[0m[13:42:58.664586] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000001
+[0m[13:42:58.664589] [GTPU]   [82] UE ID 1: Create tunnel TEID incoming 0x8426d5d2 outgoing 0x1 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:42:58.664608] [RRC]    activate SRB 2 of UE 1
+[0m[13:42:58.665547] [RRC]    UE 1 trigger UE context setup request with 1 DRBs
+[0m[13:42:58.667903] [E1AP]   UE 1: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:42:58.667920] [PDCP]   DRB 1 re-established
+[0m[13:42:58.667925] [GTPU]   [79] UE ID 1: Update tunnel TEID incoming 0xa0ddba99 outgoing 0xcfe51b5 to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:42:58.668181] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:42:58.668210] [NR_RRC] [DL] (cellID bc614e, UE ID 1 RNTI 69dd) Generate RRCReconfiguration (bytes 313, xid 3)
+[0m[13:42:58.668249] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 1
+[0m[13:42:58.668253] [RRC]    UE 1: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:42:58.677066] [NR_RRC] [UL] (cellID bc614e, UE ID 1 RNTI 69dd) Received RRCReconfigurationComplete
+[0m[13:42:58.677094] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x8426d5d2, Addr=192.168.70.129
+[0m[13:42:58.677100] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:43:46.047783] [NR_RRC] Decoding CCCH: RNTI daa8, payload_size 6
+[0m[32m[13:43:46.047826] [NR_RRC] [--] (cellID 0, UE ID 2 RNTI daa8) Create UE context: CU UE ID 2 DU UE ID 55976 (rnti: daa8, random ue id 64f8a56472000000)
+[0m[13:43:46.047835] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:43:46.047910] [RRC]    activate SRB 1 of UE 2
+[0m[32m[13:43:46.047931] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Send RRC Setup
+[0m[32m[13:43:46.065684] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:43:46.065725] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:43:46.065769] [NGAP]   UE 2: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:43:46.065807] [NGAP]   Create UE context (ID 2) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:43:46.116338] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Send DL Information Transfer [42 bytes]
+[0m[32m[13:43:46.139913] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:43:46.180550] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Send DL Information Transfer [21 bytes]
+[0m[32m[13:43:46.199036] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRC UL Information Transfer [60 bytes]
+[0m[13:43:46.217901] [NGAP]   Initial Context Setup UE RAN ID 2 UE AMF ID 2: 0 PDU session(s)
+[0m[32m[13:43:46.217951] [NR_RRC] [--] (cellID bc614e, UE ID 2 RNTI daa8) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:43:46.217999] [NR_RRC] [UE daa8] Saved security key 19
+[0m[13:43:46.220994] [NR_RRC] UE 2 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:43:46.237927] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received Security Mode Complete
+[0m[13:43:46.239630] [NR_RRC] UE 2: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 0)
+[0m[32m[13:43:46.259020] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received UE capabilities
+[0m[13:43:46.259081] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:43:46.259123] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Send DL Information Transfer [53 bytes]
+[0m[13:43:46.259185] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:43:46.283334] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:43:46.283365] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRC UL Information Transfer [35 bytes]
+[0m[13:43:46.310217] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:43:46.310343] [NR_RRC] UE 2: received PDU Session Resource Setup Request
+[0m[13:43:46.310358] [NR_RRC] UE 2: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:43:46.310381] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:43:46.310391] [NR_RRC] UE 2: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:43:46.310395] [NR_RRC] UE 2: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:43:46.312181] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000002, Addr=192.168.70.138
+[0m[32m[13:43:46.312205] [NR_RRC] [--] (cellID bc614e, UE ID 2 RNTI daa8) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:43:46.312208] [RRC]    UE 2 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:43:46.312232] [E1AP]   UE 2: set up PDU session ID 1 (1 bearers)
+[0m[13:43:46.312240] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:43:46.312250] [GTPU]   [79] UE ID 2: Create tunnel TEID incoming 0xb7aebe57 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:43:46.312260] [SDAP]   Creating SDAP entity ue_id=2 pdu_session_id=1
+[0m[13:43:46.312265] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:43:46.312271] [PDCP]   Added DRB 1 to UE ID 2
+[0m[13:43:46.312281] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000002
+[0m[13:43:46.312286] [GTPU]   [82] UE ID 2: Create tunnel TEID incoming 0x8c408817 outgoing 0x2 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:43:46.312314] [RRC]    activate SRB 2 of UE 2
+[0m[13:43:46.313873] [RRC]    UE 2 trigger UE context setup request with 1 DRBs
+[0m[13:43:46.318580] [E1AP]   UE 2: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:43:46.318606] [PDCP]   DRB 1 re-established
+[0m[13:43:46.318612] [GTPU]   [79] UE ID 2: Update tunnel TEID incoming 0xb7aebe57 outgoing 0x3d81ad4e to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:43:46.318773] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:43:46.318823] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Generate RRCReconfiguration (bytes 313, xid 2)
+[0m[13:43:46.318869] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 2
+[0m[13:43:46.318965] [RRC]    UE 2: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:43:46.337685] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRCReconfigurationComplete
+[0m[13:43:46.337751] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x8c408817, Addr=192.168.70.129
+[0m[13:43:46.337761] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:43:48.486873] [NR_RRC] Decoding CCCH: RNTI ab7f, payload_size 6
+[0m[32m[13:43:48.486900] [NR_RRC] [--] (cellID 0, UE ID 3 RNTI ab7f) Create UE context: CU UE ID 3 DU UE ID 43903 (rnti: ab7f, random ue id 2cb329acaf000000)
+[0m[13:43:48.486907] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:43:48.486920] [RRC]    activate SRB 1 of UE 3
+[0m[32m[13:43:48.486930] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Send RRC Setup
+[0m[32m[13:43:48.512127] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:43:48.512163] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:43:48.512217] [NGAP]   UE 3: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:43:48.512240] [NGAP]   Create UE context (ID 3) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:43:48.558986] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Send DL Information Transfer [42 bytes]
+[0m[32m[13:43:48.589742] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:43:48.631640] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Send DL Information Transfer [21 bytes]
+[0m[32m[13:43:48.662453] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRC UL Information Transfer [60 bytes]
+[0m[13:43:48.675070] [NGAP]   Initial Context Setup UE RAN ID 3 UE AMF ID 3: 0 PDU session(s)
+[0m[32m[13:43:48.675090] [NR_RRC] [--] (cellID bc614e, UE ID 3 RNTI ab7f) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:43:48.675108] [NR_RRC] [UE ab7f] Saved security key 72
+[0m[13:43:48.677106] [NR_RRC] UE 3 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:43:48.704034] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received Security Mode Complete
+[0m[13:43:48.706784] [NR_RRC] UE 3: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 3)
+[0m[32m[13:43:48.736029] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received UE capabilities
+[0m[13:43:48.736091] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:43:48.736146] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Send DL Information Transfer [53 bytes]
+[0m[13:43:48.736227] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:43:48.767794] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:43:48.767838] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRC UL Information Transfer [35 bytes]
+[0m[13:43:48.785819] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:43:48.785946] [NR_RRC] UE 3: received PDU Session Resource Setup Request
+[0m[13:43:48.785965] [NR_RRC] UE 3: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:43:48.785972] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:43:48.785979] [NR_RRC] UE 3: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:43:48.785982] [NR_RRC] UE 3: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:43:48.787995] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000003, Addr=192.168.70.138
+[0m[32m[13:43:48.788032] [NR_RRC] [--] (cellID bc614e, UE ID 3 RNTI ab7f) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:43:48.788039] [RRC]    UE 3 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:43:48.788063] [E1AP]   UE 3: set up PDU session ID 1 (1 bearers)
+[0m[13:43:48.788070] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:43:48.788078] [GTPU]   [79] UE ID 3: Create tunnel TEID incoming 0x65ed4ef5 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:43:48.788083] [SDAP]   Creating SDAP entity ue_id=3 pdu_session_id=1
+[0m[13:43:48.788085] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:43:48.788089] [PDCP]   Added DRB 1 to UE ID 3
+[0m[13:43:48.788096] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000003
+[0m[13:43:48.788099] [GTPU]   [82] UE ID 3: Create tunnel TEID incoming 0x8e9b8b6c outgoing 0x3 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:43:48.788122] [RRC]    activate SRB 2 of UE 3
+[0m[13:43:48.789617] [RRC]    UE 3 trigger UE context setup request with 1 DRBs
+[0m[13:43:48.794424] [E1AP]   UE 3: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:43:48.794452] [PDCP]   DRB 1 re-established
+[0m[13:43:48.794458] [GTPU]   [79] UE ID 3: Update tunnel TEID incoming 0x65ed4ef5 outgoing 0x6e02eee0 to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:43:48.794617] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:43:48.794650] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Generate RRCReconfiguration (bytes 313, xid 1)
+[0m[13:43:48.794694] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 3
+[0m[13:43:48.794699] [RRC]    UE 3: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:43:48.822525] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRCReconfigurationComplete
+[0m[13:43:48.822582] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x8e9b8b6c, Addr=192.168.70.129
+[0m[13:43:48.822589] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:43:50.560197] [NR_RRC] Decoding CCCH: RNTI cf57, payload_size 6
+[0m[32m[13:43:50.560229] [NR_RRC] [--] (cellID 0, UE ID 4 RNTI cf57) Create UE context: CU UE ID 4 DU UE ID 53079 (rnti: cf57, random ue id 12a56a65b8000000)
+[0m[13:43:50.560254] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:43:50.560269] [RRC]    activate SRB 1 of UE 4
+[0m[32m[13:43:50.560277] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Send RRC Setup
+[0m[32m[13:43:50.586097] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:43:50.586131] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:43:50.586242] [NGAP]   UE 4: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:43:50.586265] [NGAP]   Create UE context (ID 4) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:43:50.622917] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Send DL Information Transfer [42 bytes]
+[0m[32m[13:43:50.656599] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:43:50.691134] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Send DL Information Transfer [21 bytes]
+[0m[32m[13:43:50.723062] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRC UL Information Transfer [60 bytes]
+[0m[13:43:50.732473] [NGAP]   Initial Context Setup UE RAN ID 4 UE AMF ID 4: 0 PDU session(s)
+[0m[32m[13:43:50.732479] [NR_RRC] [--] (cellID bc614e, UE ID 4 RNTI cf57) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:43:50.732550] [NR_RRC] [UE cf57] Saved security key FB
+[0m[13:43:50.734469] [NR_RRC] UE 4 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:43:50.765023] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received Security Mode Complete
+[0m[13:43:50.767100] [NR_RRC] UE 4: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 2)
+[0m[32m[13:43:50.796405] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received UE capabilities
+[0m[13:43:50.796459] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:43:50.796496] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Send DL Information Transfer [53 bytes]
+[0m[13:43:50.796514] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:43:50.833037] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:43:50.833065] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRC UL Information Transfer [35 bytes]
+[0m[13:43:50.855733] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:43:50.855931] [NR_RRC] UE 4: received PDU Session Resource Setup Request
+[0m[13:43:50.855946] [NR_RRC] UE 4: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:43:50.855954] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:43:50.855959] [NR_RRC] UE 4: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:43:50.855962] [NR_RRC] UE 4: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:43:50.857766] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000004, Addr=192.168.70.138
+[0m[32m[13:43:50.857798] [NR_RRC] [--] (cellID bc614e, UE ID 4 RNTI cf57) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:43:50.857802] [RRC]    UE 4 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:43:50.857822] [E1AP]   UE 4: set up PDU session ID 1 (1 bearers)
+[0m[13:43:50.857826] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:43:50.857833] [GTPU]   [79] UE ID 4: Create tunnel TEID incoming 0x5ff060a1 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:43:50.857838] [SDAP]   Creating SDAP entity ue_id=4 pdu_session_id=1
+[0m[13:43:50.857840] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:43:50.857844] [PDCP]   Added DRB 1 to UE ID 4
+[0m[13:43:50.857852] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000004
+[0m[13:43:50.857855] [GTPU]   [82] UE ID 4: Create tunnel TEID incoming 0x67b29608 outgoing 0x4 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:43:50.857877] [RRC]    activate SRB 2 of UE 4
+[0m[13:43:50.859435] [RRC]    UE 4 trigger UE context setup request with 1 DRBs
+[0m[13:43:50.863163] [E1AP]   UE 4: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:43:50.863190] [PDCP]   DRB 1 re-established
+[0m[13:43:50.863397] [GTPU]   [79] UE ID 4: Update tunnel TEID incoming 0x5ff060a1 outgoing 0xebf04587 to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:43:50.863595] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:43:50.863631] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Generate RRCReconfiguration (bytes 313, xid 0)
+[0m[13:43:50.863679] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 4
+[0m[13:43:50.863686] [RRC]    UE 4: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:43:50.897398] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRCReconfigurationComplete
+[0m[13:43:50.897438] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x67b29608, Addr=192.168.70.129
+[0m[13:43:50.897444] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:43:52.886740] [NR_RRC] Decoding CCCH: RNTI ccf9, payload_size 6
+[0m[32m[13:43:52.886767] [NR_RRC] [--] (cellID 0, UE ID 5 RNTI ccf9) Create UE context: CU UE ID 5 DU UE ID 52473 (rnti: ccf9, random ue id 78a8e9d63d000000)
+[0m[13:43:52.886776] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:43:52.886789] [RRC]    activate SRB 1 of UE 5
+[0m[32m[13:43:52.886796] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Send RRC Setup
+[0m[32m[13:43:52.920703] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:43:52.920739] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:43:52.920796] [NGAP]   UE 5: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:43:52.920831] [NGAP]   Create UE context (ID 5) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:43:52.961808] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Send DL Information Transfer [42 bytes]
+[0m[32m[13:43:53.004762] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:43:53.034568] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Send DL Information Transfer [21 bytes]
+[0m[32m[13:43:53.078070] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRC UL Information Transfer [60 bytes]
+[0m[13:43:53.088140] [NGAP]   Initial Context Setup UE RAN ID 5 UE AMF ID 5: 0 PDU session(s)
+[0m[32m[13:43:53.088157] [NR_RRC] [--] (cellID bc614e, UE ID 5 RNTI ccf9) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:43:53.088168] [NR_RRC] [UE ccf9] Saved security key 73
+[0m[13:43:53.090479] [NR_RRC] UE 5 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:43:53.133982] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received Security Mode Complete
+[0m[13:43:53.135952] [NR_RRC] UE 5: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 1)
+[0m[32m[13:43:53.177384] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received UE capabilities
+[0m[13:43:53.177439] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:43:53.177475] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Send DL Information Transfer [53 bytes]
+[0m[13:43:53.177484] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:43:53.215141] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:43:53.215264] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRC UL Information Transfer [35 bytes]
+[0m[13:43:53.229770] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:43:53.229869] [NR_RRC] UE 5: received PDU Session Resource Setup Request
+[0m[13:43:53.229880] [NR_RRC] UE 5: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:43:53.229883] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:43:53.229886] [NR_RRC] UE 5: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:43:53.229888] [NR_RRC] UE 5: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:43:53.231618] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000005, Addr=192.168.70.138
+[0m[32m[13:43:53.231666] [NR_RRC] [--] (cellID bc614e, UE ID 5 RNTI ccf9) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:43:53.231675] [RRC]    UE 5 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:43:53.231701] [E1AP]   UE 5: set up PDU session ID 1 (1 bearers)
+[0m[13:43:53.231705] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:43:53.231771] [GTPU]   [79] UE ID 5: Create tunnel TEID incoming 0x87de498f outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:43:53.231780] [SDAP]   Creating SDAP entity ue_id=5 pdu_session_id=1
+[0m[13:43:53.231784] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:43:53.231790] [PDCP]   Added DRB 1 to UE ID 5
+[0m[13:43:53.231800] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000005
+[0m[13:43:53.231808] [GTPU]   [82] UE ID 5: Create tunnel TEID incoming 0xe68f951f outgoing 0x5 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:43:53.231834] [RRC]    activate SRB 2 of UE 5
+[0m[13:43:53.234238] [RRC]    UE 5 trigger UE context setup request with 1 DRBs
+[0m[13:43:53.238392] [E1AP]   UE 5: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:43:53.238425] [PDCP]   DRB 1 re-established
+[0m[13:43:53.238431] [GTPU]   [79] UE ID 5: Update tunnel TEID incoming 0x87de498f outgoing 0xc78dc0cd to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:43:53.238643] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:43:53.238678] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Generate RRCReconfiguration (bytes 313, xid 3)
+[0m[13:43:53.238701] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 5
+[0m[13:43:53.238704] [RRC]    UE 5: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:43:53.280376] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRCReconfigurationComplete
+[0m[13:43:53.280404] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0xe68f951f, Addr=192.168.70.129
+[0m[13:43:53.280408] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:43:55.161479] [NR_RRC] Decoding CCCH: RNTI e9d7, payload_size 6
+[0m[32m[13:43:55.161500] [NR_RRC] [--] (cellID 0, UE ID 6 RNTI e9d7) Create UE context: CU UE ID 6 DU UE ID 59863 (rnti: e9d7, random ue id 8a2846f69c000000)
+[0m[13:43:55.161505] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:43:55.161513] [RRC]    activate SRB 1 of UE 6
+[0m[32m[13:43:55.161518] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Send RRC Setup
+[0m[32m[13:43:55.211981] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:43:55.212006] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:43:55.212054] [NGAP]   UE 6: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:43:55.212081] [NGAP]   Create UE context (ID 6) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:43:55.256416] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Send DL Information Transfer [42 bytes]
+[0m[32m[13:43:55.316610] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:43:55.352822] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Send DL Information Transfer [21 bytes]
+[0m[32m[13:43:55.411324] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRC UL Information Transfer [60 bytes]
+[0m[13:43:55.420731] [NGAP]   Initial Context Setup UE RAN ID 6 UE AMF ID 6: 0 PDU session(s)
+[0m[32m[13:43:55.420745] [NR_RRC] [--] (cellID bc614e, UE ID 6 RNTI e9d7) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:43:55.420755] [NR_RRC] [UE e9d7] Saved security key B4
+[0m[13:43:55.423024] [NR_RRC] UE 6 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:43:55.479275] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received Security Mode Complete
+[0m[13:43:55.480767] [NR_RRC] UE 6: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 0)
+[0m[32m[13:43:55.544816] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received UE capabilities
+[0m[13:43:55.544870] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:43:55.544903] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Send DL Information Transfer [53 bytes]
+[0m[13:43:55.544947] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:43:55.592709] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:43:55.592736] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRC UL Information Transfer [35 bytes]
+[0m[13:43:55.608852] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:43:55.609091] [NR_RRC] UE 6: received PDU Session Resource Setup Request
+[0m[13:43:55.609111] [NR_RRC] UE 6: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:43:55.609115] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:43:55.609119] [NR_RRC] UE 6: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:43:55.609121] [NR_RRC] UE 6: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:43:55.610919] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000006, Addr=192.168.70.138
+[0m[32m[13:43:55.610946] [NR_RRC] [--] (cellID bc614e, UE ID 6 RNTI e9d7) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:43:55.610952] [RRC]    UE 6 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:43:55.610982] [E1AP]   UE 6: set up PDU session ID 1 (1 bearers)
+[0m[13:43:55.610991] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:43:55.611002] [GTPU]   [79] UE ID 6: Create tunnel TEID incoming 0xda59d83d outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:43:55.611010] [SDAP]   Creating SDAP entity ue_id=6 pdu_session_id=1
+[0m[13:43:55.611013] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:43:55.611017] [PDCP]   Added DRB 1 to UE ID 6
+[0m[13:43:55.611024] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000006
+[0m[13:43:55.611028] [GTPU]   [82] UE ID 6: Create tunnel TEID incoming 0x8c1dea16 outgoing 0x6 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:43:55.611048] [RRC]    activate SRB 2 of UE 6
+[0m[13:43:55.612522] [RRC]    UE 6 trigger UE context setup request with 1 DRBs
+[0m[13:43:55.617145] [E1AP]   UE 6: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:43:55.617169] [PDCP]   DRB 1 re-established
+[0m[13:43:55.617174] [GTPU]   [79] UE ID 6: Update tunnel TEID incoming 0xda59d83d outgoing 0xd5a424cf to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:43:55.617299] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:43:55.617329] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Generate RRCReconfiguration (bytes 313, xid 2)
+[0m[13:43:55.617373] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 6
+[0m[13:43:55.617378] [RRC]    UE 6: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:43:55.678020] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRCReconfigurationComplete
+[0m[13:43:55.678067] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x8c1dea16, Addr=192.168.70.129
+[0m[13:43:55.678075] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:43:57.861684] [NR_RRC] Decoding CCCH: RNTI 94d1, payload_size 6
+[0m[32m[13:43:57.861702] [NR_RRC] [--] (cellID 0, UE ID 7 RNTI 94d1) Create UE context: CU UE ID 7 DU UE ID 38097 (rnti: 94d1, random ue id 40b80c9a3b000000)
+[0m[13:43:57.861733] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:43:57.861744] [RRC]    activate SRB 1 of UE 7
+[0m[32m[13:43:57.861748] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Send RRC Setup
+[0m[32m[13:43:57.917022] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:43:57.917042] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:43:57.917103] [NGAP]   UE 7: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:43:57.917130] [NGAP]   Create UE context (ID 7) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:43:57.950078] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Send DL Information Transfer [42 bytes]
+[0m[32m[13:43:58.021594] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:43:58.057584] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Send DL Information Transfer [21 bytes]
+[0m[32m[13:43:58.586912] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRC UL Information Transfer [60 bytes]
+[0m[13:43:58.596293] [NGAP]   Initial Context Setup UE RAN ID 7 UE AMF ID 7: 0 PDU session(s)
+[0m[32m[13:43:58.596341] [NR_RRC] [--] (cellID bc614e, UE ID 7 RNTI 94d1) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:43:58.596353] [NR_RRC] [UE 94d1] Saved security key 32
+[0m[13:43:58.597926] [NR_RRC] UE 7 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:43:58.660159] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received Security Mode Complete
+[0m[13:43:58.661251] [NR_RRC] UE 7: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 3)
+[0m[32m[13:43:58.737181] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received UE capabilities
+[0m[13:43:58.737329] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:43:58.737378] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Send DL Information Transfer [53 bytes]
+[0m[13:43:58.737433] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:43:58.810846] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:43:58.810890] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRC UL Information Transfer [35 bytes]
+[0m[13:43:58.825002] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:43:58.825128] [NR_RRC] UE 7: received PDU Session Resource Setup Request
+[0m[13:43:58.825142] [NR_RRC] UE 7: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:43:58.825148] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:43:58.825153] [NR_RRC] UE 7: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:43:58.825157] [NR_RRC] UE 7: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:43:58.826874] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000007, Addr=192.168.70.138
+[0m[32m[13:43:58.826896] [NR_RRC] [--] (cellID bc614e, UE ID 7 RNTI 94d1) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:43:58.826899] [RRC]    UE 7 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:43:58.826919] [E1AP]   UE 7: set up PDU session ID 1 (1 bearers)
+[0m[13:43:58.826922] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:43:58.826929] [GTPU]   [79] UE ID 7: Create tunnel TEID incoming 0xbe5dfc80 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:43:58.826933] [SDAP]   Creating SDAP entity ue_id=7 pdu_session_id=1
+[0m[13:43:58.826935] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:43:58.826939] [PDCP]   Added DRB 1 to UE ID 7
+[0m[13:43:58.826945] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000007
+[0m[13:43:58.826948] [GTPU]   [82] UE ID 7: Create tunnel TEID incoming 0xb3552fdf outgoing 0x7 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:43:58.826969] [RRC]    activate SRB 2 of UE 7
+[0m[13:43:58.828506] [RRC]    UE 7 trigger UE context setup request with 1 DRBs
+[0m[13:43:58.832877] [E1AP]   UE 7: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:43:58.832917] [PDCP]   DRB 1 re-established
+[0m[13:43:58.832926] [GTPU]   [79] UE ID 7: Update tunnel TEID incoming 0xbe5dfc80 outgoing 0x91f2463c to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:43:58.833072] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:43:58.833106] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Generate RRCReconfiguration (bytes 313, xid 1)
+[0m[13:43:58.833149] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 7
+[0m[13:43:58.833162] [RRC]    UE 7: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:43:58.902787] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRCReconfigurationComplete
+[0m[13:43:58.902830] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0xb3552fdf, Addr=192.168.70.129
+[0m[13:43:58.902836] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:44:00.886751] [NR_RRC] Decoding CCCH: RNTI 6afb, payload_size 6
+[0m[32m[13:44:00.886778] [NR_RRC] [--] (cellID 0, UE ID 8 RNTI 6afb) Create UE context: CU UE ID 8 DU UE ID 27387 (rnti: 6afb, random ue id c6ba422f80000000)
+[0m[13:44:00.886784] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:00.886795] [RRC]    activate SRB 1 of UE 8
+[0m[32m[13:44:00.886802] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Send RRC Setup
+[0m[32m[13:44:00.953252] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:00.953277] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:00.953362] [NGAP]   UE 8: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:00.953383] [NGAP]   Create UE context (ID 8) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:00.991727] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:01.076616] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:01.112354] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:01.194063] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:01.203223] [NGAP]   Initial Context Setup UE RAN ID 8 UE AMF ID 8: 0 PDU session(s)
+[0m[32m[13:44:01.203236] [NR_RRC] [--] (cellID bc614e, UE ID 8 RNTI 6afb) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:01.203252] [NR_RRC] [UE 6afb] Saved security key 6E
+[0m[13:44:01.205966] [NR_RRC] UE 8 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:01.304210] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received Security Mode Complete
+[0m[13:44:01.306274] [NR_RRC] UE 8: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 2)
+[0m[32m[13:44:01.399974] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received UE capabilities
+[0m[13:44:01.400029] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:01.400068] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Send DL Information Transfer [53 bytes]
+[0m[13:44:01.400104] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:01.511370] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:01.511427] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRC UL Information Transfer [35 bytes]
+[0m[13:44:01.525463] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:44:01.525607] [NR_RRC] UE 8: received PDU Session Resource Setup Request
+[0m[13:44:01.525618] [NR_RRC] UE 8: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:44:01.525622] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:44:01.525625] [NR_RRC] UE 8: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:44:01.525627] [NR_RRC] UE 8: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:44:01.527749] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000008, Addr=192.168.70.138
+[0m[32m[13:44:01.527785] [NR_RRC] [--] (cellID bc614e, UE ID 8 RNTI 6afb) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:44:01.527791] [RRC]    UE 8 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:44:01.527818] [E1AP]   UE 8: set up PDU session ID 1 (1 bearers)
+[0m[13:44:01.527823] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:44:01.527834] [GTPU]   [79] UE ID 8: Create tunnel TEID incoming 0xc34c3a63 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:44:01.527842] [SDAP]   Creating SDAP entity ue_id=8 pdu_session_id=1
+[0m[13:44:01.527857] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:44:01.527864] [PDCP]   Added DRB 1 to UE ID 8
+[0m[13:44:01.527873] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000008
+[0m[13:44:01.527879] [GTPU]   [82] UE ID 8: Create tunnel TEID incoming 0x52c594bd outgoing 0x8 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:44:01.527908] [RRC]    activate SRB 2 of UE 8
+[0m[13:44:01.529692] [RRC]    UE 8 trigger UE context setup request with 1 DRBs
+[0m[13:44:01.533927] [E1AP]   UE 8: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:44:01.533941] [PDCP]   DRB 1 re-established
+[0m[13:44:01.533946] [GTPU]   [79] UE ID 8: Update tunnel TEID incoming 0xc34c3a63 outgoing 0x3cef0d51 to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:44:01.534060] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:44:01.534102] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Generate RRCReconfiguration (bytes 313, xid 0)
+[0m[13:44:01.534143] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 8
+[0m[13:44:01.534149] [RRC]    UE 8: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:44:01.607896] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRCReconfigurationComplete
+[0m[13:44:01.607923] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x52c594bd, Addr=192.168.70.129
+[0m[13:44:01.607926] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:44:03.120784] [NR_RRC] Decoding CCCH: RNTI 33c7, payload_size 6
+[0m[32m[13:44:03.120810] [NR_RRC] [--] (cellID 0, UE ID 9 RNTI 33c7) Create UE context: CU UE ID 9 DU UE ID 13255 (rnti: 33c7, random ue id 2e3d9a5b04000000)
+[0m[13:44:03.120816] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:03.120824] [RRC]    activate SRB 1 of UE 9
+[0m[32m[13:44:03.120829] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Send RRC Setup
+[0m[32m[13:44:03.211391] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:03.211609] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:03.211638] [NGAP]   UE 9: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:03.211667] [NGAP]   Create UE context (ID 9) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:03.244679] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:03.322405] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:03.351545] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:03.444506] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:03.456034] [NGAP]   Initial Context Setup UE RAN ID 9 UE AMF ID 9: 0 PDU session(s)
+[0m[32m[13:44:03.456047] [NR_RRC] [--] (cellID bc614e, UE ID 9 RNTI 33c7) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:03.456057] [NR_RRC] [UE 33c7] Saved security key 8B
+[0m[13:44:03.458209] [NR_RRC] UE 9 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:03.539145] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received Security Mode Complete
+[0m[13:44:03.540581] [NR_RRC] UE 9: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 1)
+[0m[32m[13:44:03.638708] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received UE capabilities
+[0m[13:44:03.638813] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:03.638884] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Send DL Information Transfer [53 bytes]
+[0m[13:44:03.638933] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:03.700884] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:03.700959] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRC UL Information Transfer [35 bytes]
+[0m[13:44:03.713336] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:44:03.713440] [NR_RRC] UE 9: received PDU Session Resource Setup Request
+[0m[13:44:03.713450] [NR_RRC] UE 9: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:44:03.713454] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:44:03.713456] [NR_RRC] UE 9: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:44:03.713458] [NR_RRC] UE 9: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:44:03.715065] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x00000009, Addr=192.168.70.138
+[0m[32m[13:44:03.715083] [NR_RRC] [--] (cellID bc614e, UE ID 9 RNTI 33c7) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:44:03.715086] [RRC]    UE 9 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:44:03.715107] [E1AP]   UE 9: set up PDU session ID 1 (1 bearers)
+[0m[13:44:03.715110] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:44:03.715117] [GTPU]   [79] UE ID 9: Create tunnel TEID incoming 0x97de394b outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:44:03.715121] [SDAP]   Creating SDAP entity ue_id=9 pdu_session_id=1
+[0m[13:44:03.715123] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:44:03.715127] [PDCP]   Added DRB 1 to UE ID 9
+[0m[13:44:03.715133] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x00000009
+[0m[13:44:03.715136] [GTPU]   [82] UE ID 9: Create tunnel TEID incoming 0xd5e82dfb outgoing 0x9 to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:44:03.715156] [RRC]    activate SRB 2 of UE 9
+[0m[13:44:03.716582] [RRC]    UE 9 trigger UE context setup request with 1 DRBs
+[0m[13:44:03.721407] [E1AP]   UE 9: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:44:03.721436] [PDCP]   DRB 1 re-established
+[0m[13:44:03.721442] [GTPU]   [79] UE ID 9: Update tunnel TEID incoming 0x97de394b outgoing 0xa912bc0b to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:44:03.721673] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:44:03.721707] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Generate RRCReconfiguration (bytes 313, xid 3)
+[0m[13:44:03.721746] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 9
+[0m[13:44:03.721751] [RRC]    UE 9: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:44:03.814718] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRCReconfigurationComplete
+[0m[13:44:03.814745] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0xd5e82dfb, Addr=192.168.70.129
+[0m[13:44:03.814749] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:44:05.963144] [NR_RRC] Decoding CCCH: RNTI 7913, payload_size 6
+[0m[32m[13:44:05.963168] [NR_RRC] [--] (cellID 0, UE ID 10 RNTI 7913) Create UE context: CU UE ID 10 DU UE ID 30995 (rnti: 7913, random ue id 6c26e72c0a000000)
+[0m[13:44:05.963173] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:05.963181] [RRC]    activate SRB 1 of UE 10
+[0m[32m[13:44:05.963187] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Send RRC Setup
+[0m[32m[13:44:06.042942] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:06.042968] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:06.043023] [NGAP]   UE 10: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:06.043045] [NGAP]   Create UE context (ID 10) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:06.074345] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:06.180605] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:06.215250] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:06.305682] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:06.314221] [NGAP]   Initial Context Setup UE RAN ID 10 UE AMF ID 10: 0 PDU session(s)
+[0m[32m[13:44:06.314237] [NR_RRC] [--] (cellID bc614e, UE ID 10 RNTI 7913) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:06.314247] [NR_RRC] [UE 7913] Saved security key 88
+[0m[13:44:06.315726] [NR_RRC] UE 10 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:06.381167] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received Security Mode Complete
+[0m[13:44:06.382438] [NR_RRC] UE 10: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 0)
+[0m[32m[13:44:06.468014] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received UE capabilities
+[0m[13:44:06.468069] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:06.468082] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Send DL Information Transfer [53 bytes]
+[0m[13:44:06.468190] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:06.590090] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:06.590134] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRC UL Information Transfer [35 bytes]
+[0m[13:44:06.604462] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:44:06.604656] [NR_RRC] UE 10: received PDU Session Resource Setup Request
+[0m[13:44:06.604666] [NR_RRC] UE 10: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:44:06.604669] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:44:06.604672] [NR_RRC] UE 10: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:44:06.604674] [NR_RRC] UE 10: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:44:06.606403] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x0000000a, Addr=192.168.70.138
+[0m[32m[13:44:06.606423] [NR_RRC] [--] (cellID bc614e, UE ID 10 RNTI 7913) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:44:06.606427] [RRC]    UE 10 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:44:06.606445] [E1AP]   UE 10: set up PDU session ID 1 (1 bearers)
+[0m[13:44:06.606449] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:44:06.606455] [GTPU]   [79] UE ID 10: Create tunnel TEID incoming 0x92fa4357 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:44:06.606460] [SDAP]   Creating SDAP entity ue_id=10 pdu_session_id=1
+[0m[13:44:06.606462] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:44:06.606473] [PDCP]   Added DRB 1 to UE ID 10
+[0m[13:44:06.606480] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x0000000a
+[0m[13:44:06.606483] [GTPU]   [82] UE ID 10: Create tunnel TEID incoming 0x86203adf outgoing 0xa to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:44:06.606505] [RRC]    activate SRB 2 of UE 10
+[0m[13:44:06.608358] [RRC]    UE 10 trigger UE context setup request with 1 DRBs
+[0m[13:44:06.613112] [E1AP]   UE 10: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:44:06.613134] [PDCP]   DRB 1 re-established
+[0m[13:44:06.613140] [GTPU]   [79] UE ID 10: Update tunnel TEID incoming 0x92fa4357 outgoing 0x875e3e0e to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:44:06.613285] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:44:06.613322] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Generate RRCReconfiguration (bytes 313, xid 2)
+[0m[13:44:06.613361] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 10
+[0m[13:44:06.613368] [RRC]    UE 10: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:44:06.714251] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRCReconfigurationComplete
+[0m[13:44:06.714282] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x86203adf, Addr=192.168.70.129
+[0m[13:44:06.714285] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:44:08.069949] [NR_RRC] Decoding CCCH: RNTI 364b, payload_size 6
+[0m[32m[13:44:08.069974] [NR_RRC] [--] (cellID 0, UE ID 11 RNTI 364b) Create UE context: CU UE ID 11 DU UE ID 13899 (rnti: 364b, random ue id 4cf13109be000000)
+[0m[13:44:08.069986] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:08.069994] [RRC]    activate SRB 1 of UE 11
+[0m[32m[13:44:08.070000] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Send RRC Setup
+[0m[32m[13:44:08.157540] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:08.157561] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:08.157598] [NGAP]   UE 11: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:08.157618] [NGAP]   Create UE context (ID 11) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:08.187882] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:08.291119] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:08.326606] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:08.433086] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:08.443143] [NGAP]   Initial Context Setup UE RAN ID 11 UE AMF ID 11: 0 PDU session(s)
+[0m[32m[13:44:08.443157] [NR_RRC] [--] (cellID bc614e, UE ID 11 RNTI 364b) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:08.443188] [NR_RRC] [UE 364b] Saved security key 66
+[0m[13:44:08.445103] [NR_RRC] UE 11 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:08.543873] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received Security Mode Complete
+[0m[13:44:08.545953] [NR_RRC] UE 11: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 3)
+[0m[32m[13:44:08.686844] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received UE capabilities
+[0m[13:44:08.686889] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:08.686945] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Send DL Information Transfer [53 bytes]
+[0m[13:44:08.686951] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:08.780645] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:08.780691] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRC UL Information Transfer [35 bytes]
+[0m[13:44:08.792705] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:44:08.792809] [NR_RRC] UE 11: received PDU Session Resource Setup Request
+[0m[13:44:08.792819] [NR_RRC] UE 11: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:44:08.792822] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:44:08.792825] [NR_RRC] UE 11: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:44:08.792827] [NR_RRC] UE 11: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:44:08.794860] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x0000000b, Addr=192.168.70.138
+[0m[32m[13:44:08.794882] [NR_RRC] [--] (cellID bc614e, UE ID 11 RNTI 364b) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:44:08.794885] [RRC]    UE 11 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:44:08.794903] [E1AP]   UE 11: set up PDU session ID 1 (1 bearers)
+[0m[13:44:08.794907] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:44:08.794914] [GTPU]   [79] UE ID 11: Create tunnel TEID incoming 0x28ac8cb5 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:44:08.794919] [SDAP]   Creating SDAP entity ue_id=11 pdu_session_id=1
+[0m[13:44:08.794921] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:44:08.794924] [PDCP]   Added DRB 1 to UE ID 11
+[0m[13:44:08.794931] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x0000000b
+[0m[13:44:08.794934] [GTPU]   [82] UE ID 11: Create tunnel TEID incoming 0x5a3bcd4f outgoing 0xb to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:44:08.794955] [RRC]    activate SRB 2 of UE 11
+[0m[13:44:08.796044] [RRC]    UE 11 trigger UE context setup request with 1 DRBs
+[0m[13:44:08.800553] [E1AP]   UE 11: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:44:08.800576] [PDCP]   DRB 1 re-established
+[0m[13:44:08.800581] [GTPU]   [79] UE ID 11: Update tunnel TEID incoming 0x28ac8cb5 outgoing 0x587524c7 to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:44:08.800699] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:44:08.800728] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Generate RRCReconfiguration (bytes 313, xid 1)
+[0m[13:44:08.800771] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 11
+[0m[13:44:08.800776] [RRC]    UE 11: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:44:08.894869] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRCReconfigurationComplete
+[0m[13:44:08.894917] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0x5a3bcd4f, Addr=192.168.70.129
+[0m[13:44:08.894922] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:44:10.521515] [NR_RRC] Decoding CCCH: RNTI 060e, payload_size 6
+[0m[32m[13:44:10.521559] [NR_RRC] [--] (cellID 0, UE ID 12 RNTI 060e) Create UE context: CU UE ID 12 DU UE ID 1550 (rnti: 060e, random ue id ee51651517000000)
+[0m[13:44:10.521564] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:10.521573] [RRC]    activate SRB 1 of UE 12
+[0m[32m[13:44:10.521578] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Send RRC Setup
+[0m[32m[13:44:10.610289] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:10.610357] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:10.610399] [NGAP]   UE 12: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:10.610424] [NGAP]   Create UE context (ID 12) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:10.666397] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:10.774650] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:10.805453] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:10.933731] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:10.942441] [NGAP]   Initial Context Setup UE RAN ID 12 UE AMF ID 12: 0 PDU session(s)
+[0m[32m[13:44:10.942486] [NR_RRC] [--] (cellID bc614e, UE ID 12 RNTI 060e) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:10.942502] [NR_RRC] [UE 60e] Saved security key D0
+[0m[13:44:10.944328] [NR_RRC] UE 12 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:11.073637] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received Security Mode Complete
+[0m[13:44:11.074850] [NR_RRC] UE 12: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 2)
+[0m[32m[13:44:11.190343] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received UE capabilities
+[0m[13:44:11.190409] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:11.190447] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Send DL Information Transfer [53 bytes]
+[0m[13:44:11.190461] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:11.287024] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:11.287089] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRC UL Information Transfer [35 bytes]
+[0m[13:44:11.300297] [NGAP]   PDUSESSIONSetup initiating message
+[0m[13:44:11.300455] [NR_RRC] UE 12: received PDU Session Resource Setup Request
+[0m[13:44:11.300467] [NR_RRC] UE 12: added QoS flow with QFI=1, total number of QoS flows = 1
+[0m[13:44:11.300519] [NR_RRC] Added PDU Session 1, (total nb of sessions = 1)
+[0m[13:44:11.300529] [NR_RRC] UE 12: created new DRB 1 for QFI 1 (5QI 9)
+[0m[13:44:11.300533] [NR_RRC] UE 12: assigned DRB 1 to QFI 1 (5QI 9) in PDU session 1
+[0m[13:44:11.302703] [NR_RRC] PDU Session to Setup: PDU Session ID=1, incoming TEID=0x0000000c, Addr=192.168.70.138
+[0m[32m[13:44:11.302750] [NR_RRC] [--] (cellID bc614e, UE ID 12 RNTI 060e) selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+[0m[13:44:11.302755] [RRC]    UE 12 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+[0m[13:44:11.302999] [E1AP]   UE 12: set up PDU session ID 1 (1 bearers)
+[0m[13:44:11.303518] [GTPU]   Incoming DRB 1 / PDU Session 1 - UL TEID 65535
+[0m[13:44:11.303593] [GTPU]   [79] UE ID 12: Create tunnel TEID incoming 0x808bcff8 outgoing 0xffff to remote IPv4 0.0.0.0, IPv6 ::, port 2152
+[0m[13:44:11.303606] [SDAP]   Creating SDAP entity ue_id=12 pdu_session_id=1
+[0m[13:44:11.303609] [SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[13:44:11.303614] [PDCP]   Added DRB 1 to UE ID 12
+[0m[13:44:11.303622] [GTPU]   N3 GTP-U tunnel: PDUSession=1/UL TEID=0x0000000c
+[0m[13:44:11.303627] [GTPU]   [82] UE ID 12: Create tunnel TEID incoming 0xd0e31e05 outgoing 0xc to remote IPv4 192.168.70.138, IPv6 ::, port 2152
+[0m[13:44:11.303657] [RRC]    activate SRB 2 of UE 12
+[0m[13:44:11.304821] [RRC]    UE 12 trigger UE context setup request with 1 DRBs
+[0m[13:44:11.309624] [E1AP]   UE 12: updating PDU session ID 1 (0 setup, 1 modify bearers)
+[0m[13:44:11.309646] [PDCP]   DRB 1 re-established
+[0m[13:44:11.309650] [GTPU]   [79] UE ID 12: Update tunnel TEID incoming 0x808bcff8 outgoing 0x39e0b3ac to remote IPv4 127.0.0.4, IPv6 ::, port 2152
+[0m[13:44:11.309765] [NR_RRC] PDU Session New: status to ESTABLISH for PDU Session 1 
+[0m[32m[13:44:11.309793] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Generate RRCReconfiguration (bytes 313, xid 0)
+[0m[13:44:11.309902] [NR_RRC] Received E1AP Bearer Context Modification Response for UE CU-CP ID 12
+[0m[13:44:11.309911] [RRC]    UE 12: PDU session ID 1 modified 1 bearers, setup 0 bearers
+[0m[32m[13:44:11.429057] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRCReconfigurationComplete
+[0m[13:44:11.429099] [NR_RRC] PDU Session Setup: ID=1, outgoing TEID=0xd0e31e05, Addr=192.168.70.129
+[0m[13:44:11.429106] [NR_RRC] NGAP_PDUSESSION_SETUP_RESP: sending the message
+[0m[13:44:12.560811] [NR_RRC] Decoding CCCH: RNTI 04c8, payload_size 6
+[0m[32m[13:44:12.560837] [NR_RRC] [--] (cellID 0, UE ID 13 RNTI 04c8) Create UE context: CU UE ID 13 DU UE ID 1224 (rnti: 04c8, random ue id 48c9eb7cd9000000)
+[0m[13:44:12.560842] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:12.560849] [RRC]    activate SRB 1 of UE 13
+[0m[32m[13:44:12.560854] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send RRC Setup
+[0m[32m[13:44:12.659751] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:12.659771] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:12.659808] [NGAP]   UE 13: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:12.659829] [NGAP]   Create UE context (ID 13) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:12.699190] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:12.831420] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:12.863535] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:12.988711] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:12.999620] [NGAP]   Initial Context Setup UE RAN ID 13 UE AMF ID 13: 0 PDU session(s)
+[0m[32m[13:44:12.999631] [NR_RRC] [--] (cellID bc614e, UE ID 13 RNTI 04c8) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:12.999641] [NR_RRC] [UE 4c8] Saved security key F1
+[0m[13:44:13.000835] [NR_RRC] UE 13 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:13.111010] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received Security Mode Complete
+[0m[13:44:13.112250] [NR_RRC] UE 13: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 1)
+[0m[32m[13:44:13.235111] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received UE capabilities
+[0m[13:44:13.235150] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:13.235184] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send DL Information Transfer [53 bytes]
+[0m[13:44:13.235200] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:13.383459] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:13.383502] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received RRC UL Information Transfer [35 bytes]
+[0m[32m[13:44:13.393991] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send DL Information Transfer [21 bytes]
+[0m[13:44:14.864852] [NR_RRC] Decoding CCCH: RNTI e1fe, payload_size 6
+[0m[32m[13:44:14.864880] [NR_RRC] [--] (cellID 0, UE ID 14 RNTI e1fe) Create UE context: CU UE ID 14 DU UE ID 57854 (rnti: e1fe, random ue id a03192c0ad000000)
+[0m[13:44:14.864885] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:14.864893] [RRC]    activate SRB 1 of UE 14
+[0m[32m[13:44:14.864897] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send RRC Setup
+[0m[32m[13:44:14.962966] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:14.962988] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:14.963028] [NGAP]   UE 14: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:14.963049] [NGAP]   Create UE context (ID 14) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:14.999643] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:15.142107] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:15.176281] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:15.298097] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:15.307853] [NGAP]   Initial Context Setup UE RAN ID 14 UE AMF ID 14: 0 PDU session(s)
+[0m[32m[13:44:15.307868] [NR_RRC] [--] (cellID bc614e, UE ID 14 RNTI e1fe) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:15.307877] [NR_RRC] [UE e1fe] Saved security key 76
+[0m[13:44:15.308898] [NR_RRC] UE 14 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:15.417783] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received Security Mode Complete
+[0m[13:44:15.419035] [NR_RRC] UE 14: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 0)
+[0m[32m[13:44:15.546553] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received UE capabilities
+[0m[13:44:15.546602] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:15.546642] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send DL Information Transfer [53 bytes]
+[0m[13:44:15.546650] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:15.689313] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:15.689376] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received RRC UL Information Transfer [35 bytes]
+[0m[32m[13:44:15.698023] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send DL Information Transfer [21 bytes]
+[0m[13:44:17.169420] [NR_RRC] Decoding CCCH: RNTI 3381, payload_size 6
+[0m[32m[13:44:17.169447] [NR_RRC] [--] (cellID 0, UE ID 15 RNTI 3381) Create UE context: CU UE ID 15 DU UE ID 13185 (rnti: 3381, random ue id c8da6ef7d0000000)
+[0m[13:44:17.169453] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:17.169461] [RRC]    activate SRB 1 of UE 15
+[0m[32m[13:44:17.169466] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send RRC Setup
+[0m[32m[13:44:17.269198] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:17.269227] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:17.269284] [NGAP]   UE 15: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:17.269306] [NGAP]   Create UE context (ID 15) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:17.308920] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:17.462852] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:17.493460] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:17.589998] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:17.599260] [NGAP]   Initial Context Setup UE RAN ID 15 UE AMF ID 15: 0 PDU session(s)
+[0m[32m[13:44:17.599278] [NR_RRC] [--] (cellID bc614e, UE ID 15 RNTI 3381) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:17.599288] [NR_RRC] [UE 3381] Saved security key 13
+[0m[13:44:17.601730] [NR_RRC] UE 15 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:17.726437] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received Security Mode Complete
+[0m[13:44:17.727594] [NR_RRC] UE 15: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 3)
+[0m[32m[13:44:17.860201] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received UE capabilities
+[0m[13:44:17.860254] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:17.860305] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send DL Information Transfer [53 bytes]
+[0m[13:44:17.860311] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:18.015552] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:18.015581] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received RRC UL Information Transfer [35 bytes]
+[0m[32m[13:44:18.023998] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send DL Information Transfer [21 bytes]
+[0m[13:44:19.193104] [NR_RRC] Decoding CCCH: RNTI 2b47, payload_size 6
+[0m[32m[13:44:19.193154] [NR_RRC] [--] (cellID 0, UE ID 16 RNTI 2b47) Create UE context: CU UE ID 16 DU UE ID 11079 (rnti: 2b47, random ue id bcb0345360000000)
+[0m[13:44:19.193164] [NR_RRC] Adding new PCell (cell 12345678, assoc_id 6)
+[0m[13:44:19.193179] [RRC]    activate SRB 1 of UE 16
+[0m[32m[13:44:19.193200] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send RRC Setup
+[0m[32m[13:44:19.295089] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received RRCSetupComplete (RRC_CONNECTED reached)
+[0m[13:44:19.295113] [NGAP]   Selected PLMN in the NG Initial UE Message: MCC=208 MNC=95
+[0m[13:44:19.295155] [NGAP]   UE 16: Selected AMF 'OAI-AMF' (assoc_id 3) through selected PLMN MCC=208 MNC=95
+[0m[13:44:19.295178] [NGAP]   Create UE context (ID 16) for AMF 'OAI-AMF' (assoc_id 3)
+[0m[32m[13:44:19.329598] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send DL Information Transfer [42 bytes]
+[0m[32m[13:44:19.449925] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received RRC UL Information Transfer [24 bytes]
+[0m[32m[13:44:19.477775] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send DL Information Transfer [21 bytes]
+[0m[32m[13:44:19.618146] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received RRC UL Information Transfer [60 bytes]
+[0m[13:44:19.627554] [NGAP]   Initial Context Setup UE RAN ID 16 UE AMF ID 16: 0 PDU session(s)
+[0m[32m[13:44:19.627568] [NR_RRC] [--] (cellID bc614e, UE ID 16 RNTI 2b47) Selected security algorithms: ciphering 0, integrity 2
+[0m[13:44:19.627578] [NR_RRC] [UE 2b47] Saved security key 01
+[0m[13:44:19.629935] [NR_RRC] UE 16 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[32m[13:44:19.750645] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received Security Mode Complete
+[0m[13:44:19.751669] [NR_RRC] UE 16: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 2)
+[0m[32m[13:44:19.880355] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received UE capabilities
+[0m[13:44:19.880396] [NR_RRC] Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[0m[32m[13:44:19.880437] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send DL Information Transfer [53 bytes]
+[0m[13:44:19.880444] [NR_RRC] Send message to sctp: NGAP_InitialContextSetupResponse
+[0m[32m[13:44:20.030506] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received RRC UL Information Transfer [13 bytes]
+[0m[32m[13:44:20.030574] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received RRC UL Information Transfer [35 bytes]
+[0m[32m[13:44:20.039554] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send DL Information Transfer [21 bytes]
+[0m[32m[14:16:20.754896] [NR_RRC] [UL] (cellID bc614e, UE ID 2 RNTI daa8) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.760702] [NR_RRC] [UL] (cellID bc614e, UE ID 7 RNTI 94d1) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.760732] [NR_RRC] [UL] (cellID bc614e, UE ID 10 RNTI 7913) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.760738] [NR_RRC] [UL] (cellID bc614e, UE ID 12 RNTI 060e) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.778025] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Send DL Information Transfer [3 bytes]
+[0m[32m[14:16:20.782536] [NR_RRC] [UL] (cellID bc614e, UE ID 8 RNTI 6afb) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.782581] [NR_RRC] [UL] (cellID bc614e, UE ID 11 RNTI 364b) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.788293] [NR_RRC] [UL] (cellID bc614e, UE ID 4 RNTI cf57) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.788352] [NR_RRC] [UL] (cellID bc614e, UE ID 16 RNTI 2b47) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.811772] [NR_RRC] [UL] (cellID bc614e, UE ID 5 RNTI ccf9) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.814616] [NR_RRC] [UL] (cellID bc614e, UE ID 6 RNTI e9d7) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.837895] [NR_RRC] [UL] (cellID bc614e, UE ID 9 RNTI 33c7) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.837938] [NR_RRC] [UL] (cellID bc614e, UE ID 14 RNTI e1fe) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.841067] [NR_RRC] [UL] (cellID bc614e, UE ID 3 RNTI ab7f) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.841113] [NR_RRC] [UL] (cellID bc614e, UE ID 15 RNTI 3381) Received RRC UL Information Transfer [27 bytes]
+[0m[32m[14:16:20.894395] [NR_RRC] [UL] (cellID bc614e, UE ID 13 RNTI 04c8) Received RRC UL Information Transfer [27 bytes]
+[0m[14:16:20.979523] [E1AP]   releasing UE 2
+[0m[14:16:20.979821] [GTPU]   [82] UE ID 2: Delete all tunnels (1 tunnels)
+[0m[14:16:20.979861] [GTPU]   [79] UE ID 2: Delete all tunnels (1 tunnels)
+[0m[14:16:20.979866] [SDAP]   Successfully deleted SDAP entity for UE 2
+[0m[32m[14:16:20.979949] [NR_RRC] [DL] (cellID bc614e, UE ID 2 RNTI daa8) Send RRC Release
+[0m[14:16:20.980024] [RRC]    UE 2: received bearer release complete
+[0m[32m[14:16:20.984019] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Send DL Information Transfer [3 bytes]
+[0m[14:16:21.184591] [E1AP]   releasing UE 7
+[0m[14:16:21.184608] [GTPU]   [82] UE ID 7: Delete all tunnels (1 tunnels)
+[0m[14:16:21.184613] [GTPU]   [79] UE ID 7: Delete all tunnels (1 tunnels)
+[0m[14:16:21.184616] [SDAP]   Successfully deleted SDAP entity for UE 7
+[0m[32m[14:16:21.184626] [NR_RRC] [DL] (cellID bc614e, UE ID 7 RNTI 94d1) Send RRC Release
+[0m[14:16:21.184656] [RRC]    UE 7: received bearer release complete
+[0m[32m[14:16:21.190013] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Send DL Information Transfer [3 bytes]
+[0m[14:16:21.390395] [E1AP]   releasing UE 10
+[0m[14:16:21.390423] [GTPU]   [82] UE ID 10: Delete all tunnels (1 tunnels)
+[0m[14:16:21.390435] [GTPU]   [79] UE ID 10: Delete all tunnels (1 tunnels)
+[0m[14:16:21.390441] [SDAP]   Successfully deleted SDAP entity for UE 10
+[0m[32m[14:16:21.390465] [NR_RRC] [DL] (cellID bc614e, UE ID 10 RNTI 7913) Send RRC Release
+[0m[14:16:21.390492] [RRC]    UE 10: received bearer release complete
+[0m[32m[14:16:21.395697] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Send DL Information Transfer [3 bytes]
+[0m[14:16:21.597715] [E1AP]   releasing UE 12
+[0m[14:16:21.597776] [GTPU]   [82] UE ID 12: Delete all tunnels (1 tunnels)
+[0m[14:16:21.597793] [GTPU]   [79] UE ID 12: Delete all tunnels (1 tunnels)
+[0m[32m[14:16:21.597827] [NR_RRC] [DL] (cellID bc614e, UE ID 12 RNTI 060e) Send RRC Release
+[0m[14:16:21.597959] [RRC]    UE 12: received bearer release complete
+[0m[32m[14:16:21.610260] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Send DL Information Transfer [3 bytes]
+[0m[14:16:21.811492] [E1AP]   releasing UE 8
+[0m[14:16:21.811560] [GTPU]   [82] UE ID 8: Delete all tunnels (1 tunnels)
+[0m[14:16:21.811586] [GTPU]   [79] UE ID 8: Delete all tunnels (1 tunnels)
+[0m[14:16:21.811610] [SDAP]   Successfully deleted SDAP entity for UE 8
+[0m[32m[14:16:21.811660] [NR_RRC] [DL] (cellID bc614e, UE ID 8 RNTI 6afb) Send RRC Release
+[0m[14:16:21.811789] [RRC]    UE 8: received bearer release complete
+[0m[32m[14:16:21.822355] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Send DL Information Transfer [3 bytes]
+[0m[14:16:22.024469] [E1AP]   releasing UE 11
+[0m[14:16:22.024543] [GTPU]   [82] UE ID 11: Delete all tunnels (1 tunnels)
+[0m[14:16:22.024573] [GTPU]   [79] UE ID 11: Delete all tunnels (1 tunnels)
+[0m[32m[14:16:22.024623] [NR_RRC] [DL] (cellID bc614e, UE ID 11 RNTI 364b) Send RRC Release
+[0m[14:16:22.024778] [RRC]    UE 11: received bearer release complete
+[0m[32m[14:16:22.038591] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Send DL Information Transfer [3 bytes]
+[0m[14:16:22.239593] [E1AP]   releasing UE 4
+[0m[14:16:22.239657] [GTPU]   [82] UE ID 4: Delete all tunnels (1 tunnels)
+[0m[14:16:22.239692] [GTPU]   [79] UE ID 4: Delete all tunnels (1 tunnels)
+[0m[14:16:22.239712] [SDAP]   Successfully deleted SDAP entity for UE 4
+[0m[32m[14:16:22.239757] [NR_RRC] [DL] (cellID bc614e, UE ID 4 RNTI cf57) Send RRC Release
+[0m[14:16:22.239844] [RRC]    UE 4: received bearer release complete
+[0m[14:16:22.425522] [NR_RRC] removed UE CU UE ID 2/RNTI daa8 
+[0m[14:16:22.426127] [NR_RRC] [--] (UE ID 2 RNTI daa8) Remove UE context
+[0m[32m[14:16:23.241707] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send DL Information Transfer [3 bytes]
+[0m[14:16:23.439541] [NR_RRC] removed UE CU UE ID 7/RNTI 94d1 
+[0m[14:16:23.439608] [NR_RRC] [--] (UE ID 7 RNTI 94d1) Remove UE context
+[0m[32m[14:16:23.443451] [NR_RRC] [DL] (cellID bc614e, UE ID 16 RNTI 2b47) Send RRC Release
+[0m[32m[14:16:23.451128] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Send DL Information Transfer [3 bytes]
+[0m[14:16:23.652035] [E1AP]   releasing UE 5
+[0m[14:16:23.652062] [GTPU]   [82] UE ID 5: Delete all tunnels (1 tunnels)
+[0m[14:16:23.652068] [GTPU]   [79] UE ID 5: Delete all tunnels (1 tunnels)
+[0m[14:16:23.652072] [SDAP]   Successfully deleted SDAP entity for UE 5
+[0m[32m[14:16:23.652087] [NR_RRC] [DL] (cellID bc614e, UE ID 5 RNTI ccf9) Send RRC Release
+[0m[14:16:23.652117] [RRC]    UE 5: received bearer release complete
+[0m[32m[14:16:23.658026] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Send DL Information Transfer [3 bytes]
+[0m[14:16:23.859656] [E1AP]   releasing UE 6
+[0m[14:16:23.859719] [GTPU]   [82] UE ID 6: Delete all tunnels (1 tunnels)
+[0m[14:16:23.859751] [GTPU]   [79] UE ID 6: Delete all tunnels (1 tunnels)
+[0m[14:16:23.859771] [SDAP]   Successfully deleted SDAP entity for UE 6
+[0m[32m[14:16:23.859815] [NR_RRC] [DL] (cellID bc614e, UE ID 6 RNTI e9d7) Send RRC Release
+[0m[14:16:23.860274] [RRC]    UE 6: received bearer release complete
+[0m[32m[14:16:23.870747] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Send DL Information Transfer [3 bytes]
+[0m[14:16:24.072745] [E1AP]   releasing UE 9
+[0m[14:16:24.072807] [GTPU]   [82] UE ID 9: Delete all tunnels (1 tunnels)
+[0m[14:16:24.072864] [GTPU]   [79] UE ID 9: Delete all tunnels (1 tunnels)
+[0m[32m[14:16:24.072915] [NR_RRC] [DL] (cellID bc614e, UE ID 9 RNTI 33c7) Send RRC Release
+[0m[14:16:24.073001] [RRC]    UE 9: received bearer release complete
+[0m[14:16:24.509987] [NR_RRC] removed UE CU UE ID 10/RNTI 7913 
+[0m[14:16:24.510015] [NR_RRC] [--] (UE ID 10 RNTI 7913) Remove UE context
+[0m[14:16:24.534353] [NR_RRC] removed UE CU UE ID 4/RNTI cf57 
+[0m[14:16:24.534431] [NR_RRC] [--] (UE ID 4 RNTI cf57) Remove UE context
+[0m[14:16:24.538676] [NR_RRC] removed UE CU UE ID 12/RNTI 060e 
+[0m[14:16:24.538699] [NR_RRC] [--] (UE ID 12 RNTI 060e) Remove UE context
+[0m[14:16:24.540569] [NR_RRC] removed UE CU UE ID 8/RNTI 6afb 
+[0m[14:16:24.540594] [NR_RRC] [--] (UE ID 8 RNTI 6afb) Remove UE context
+[0m[14:16:24.541843] [NR_RRC] removed UE CU UE ID 11/RNTI 364b 
+[0m[14:16:24.541901] [NR_RRC] [--] (UE ID 11 RNTI 364b) Remove UE context
+[0m[14:16:24.676017] [NR_RRC] removed UE CU UE ID 16/RNTI 2b47 
+[0m[14:16:24.676049] [NR_RRC] [--] (UE ID 16 RNTI 2b47) Remove UE context
+[0m[32m[14:16:25.074643] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send DL Information Transfer [3 bytes]
+[0m[32m[14:16:25.275177] [NR_RRC] [DL] (cellID bc614e, UE ID 14 RNTI e1fe) Send RRC Release
+[0m[32m[14:16:25.277540] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Send DL Information Transfer [3 bytes]
+[0m[14:16:25.478995] [E1AP]   releasing UE 3
+[0m[14:16:25.479020] [GTPU]   [82] UE ID 3: Delete all tunnels (1 tunnels)
+[0m[14:16:25.479028] [GTPU]   [79] UE ID 3: Delete all tunnels (1 tunnels)
+[0m[32m[14:16:25.479087] [NR_RRC] [DL] (cellID bc614e, UE ID 3 RNTI ab7f) Send RRC Release
+[0m[14:16:25.479117] [RRC]    UE 3: received bearer release complete
+[0m[14:16:25.492071] [NR_RRC] removed UE CU UE ID 6/RNTI e9d7 
+[0m[14:16:25.492154] [NR_RRC] [--] (UE ID 6 RNTI e9d7) Remove UE context
+[0m[14:16:25.493133] [NR_RRC] removed UE CU UE ID 5/RNTI ccf9 
+[0m[14:16:25.493163] [NR_RRC] [--] (UE ID 5 RNTI ccf9) Remove UE context
+[0m[14:16:25.498846] [NR_RRC] removed UE CU UE ID 9/RNTI 33c7 
+[0m[14:16:25.498880] [NR_RRC] [--] (UE ID 9 RNTI 33c7) Remove UE context
+[0m[32m[14:16:26.479629] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send DL Information Transfer [3 bytes]
+[0m[32m[14:16:26.680423] [NR_RRC] [DL] (cellID bc614e, UE ID 15 RNTI 3381) Send RRC Release
+[0m[32m[14:16:27.680986] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send DL Information Transfer [3 bytes]
+[0m[32m[14:16:27.881507] [NR_RRC] [DL] (cellID bc614e, UE ID 13 RNTI 04c8) Send RRC Release
+[0m

@@ -1,0 +1,18 @@
+metric,value,unit,note
+registered_ues_5gmm,16,count,"16/16 -- RRC/NAS registration succeeded for every UE, at the MAX_MOBILES_PER_GNB=16 ceiling"
+pdu_sessions_established,9,count,9/16 -- UE1-9 only. UE10-16 STALLED. HEALTH GATE FAILED.
+unique_pfcp_seids,9,count,"0x4-0xc, no collisions among the 9 that succeeded"
+pfcp_rejections,0,count,"0 explicit rejections -- the 7 stuck requests were never rejected OR accepted, they simply never progressed"
+ra_rrc_failures,0,count,none observed in any UE log
+ngap_f1_failures,0,count,none beyond benign ASN.1 decoder boilerplate (verified in Stage 2)
+rf_sim_sync_frame_drops,0,count,none observed -- radio layer (RA/RRC) was NOT the constraint
+du_cpu,181,%,essentially unchanged from 8-UE stage (183%) -- DU compute was NOT the constraint
+cu_cpu,5.0,%,unchanged -- CU compute was NOT the constraint
+host_mem_used_at_failure,13292,MB,"of 15890MB total, only 761MB free / 2331MB available -- THIS is the identified constraint"
+per_ue_process_rss,~700 (692-704 range),MB,"measured directly via ps RSS; dominant memory cost, 16 UEs = ~11.2GB alone"
+du_rss,1073,MB,
+cu_rss,159,MB,
+5gc_total_rss,"~594 (sum of 9 containers, docker stats)",MB,mysql dominates at 476MB
+f1_setup_time,not re-measured this stage,N/A,"F1 established once at CU/DU boot (unchanged, not restarted); no new F1 setup occurred"
+prb_utilization_pct,not directly available,N/A,same OAI logging limitation as all prior stages
+aggregate_throughput,N/A - traffic phase not started,N/A,"health gate failed, per instructions traffic was not attempted"

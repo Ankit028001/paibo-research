@@ -1,0 +1,36 @@
+--- BEFORE (2026-08-25 13:14:44 UTC) ---
+DU:
+    PID %CPU %MEM     ELAPSED
+  23845  183  6.5    02:23:03
+CU:
+    PID %CPU %MEM     ELAPSED
+  61528  5.0  0.9    02:05:43
+free:
+               total        used        free      shared  buff/cache   available
+Mem:           15890        7823        6389           4        1678        7814
+Swap:           4096           0        4096
+
+--- DURING (t=50s of ~100s run) (2026-08-25 13:15:35 UTC) ---
+DU:
+    PID %CPU %MEM     ELAPSED
+  23845  183  6.5    02:23:53
+CU:
+    PID %CPU %MEM     ELAPSED
+  61528  5.0  0.9    02:06:33
+free:
+               total        used        free      shared  buff/cache   available
+Mem:           15890        7896        6316           4        1678        7741
+Swap:           4096           0        4096
+
+--- AFTER (2026-08-25 13:16:24 UTC) ---
+DU:
+    PID %CPU %MEM     ELAPSED
+  23845  183  6.5    02:24:41
+CU:
+    PID %CPU %MEM     ELAPSED
+  61528  5.0  0.9    02:07:21
+free:
+               total        used        free      shared  buff/cache   available
+Mem:           15890        7978        6233           4        1678        7658
+Swap:           4096           0        4096
+

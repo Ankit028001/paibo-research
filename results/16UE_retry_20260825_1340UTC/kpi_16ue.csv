@@ -1,0 +1,17 @@
+ue_id,use_case,imsi,ipv4,5gmm_state,pdu_session_state,process_rss_mb,notes
+1,mMTC,208950000000031,12.1.1.146,REGISTERED,Established,719.2,
+2,mMTC,208950000000032,12.1.1.147,REGISTERED,Established,719.2,
+3,mMTC,208950000000033,12.1.1.148,REGISTERED,Established,719.2,
+4,mMTC,208950000000034,12.1.1.149,REGISTERED,Established,719.2,
+5,Web,208950000000035,12.1.1.150,REGISTERED,Established,719.2,
+6,Mobile,208950000000036,12.1.1.151,REGISTERED,Established,719.2,
+7,VoD,208950000000037,12.1.1.152,REGISTERED,Established,719.2,
+8,Live video,208950000000038,12.1.1.153,REGISTERED,Established,719.4,
+9,mMTC,208950000000039,12.1.1.154,REGISTERED,Established,719.2,
+10,mMTC,208950000000040,12.1.1.155,REGISTERED,Established,719.2,
+11,mMTC,208950000000041,12.1.1.156,REGISTERED,Established,719.2,
+12,Web,208950000000042,12.1.1.157,REGISTERED,Established,719.2,
+13,Mobile,208950000000043,N/A - no PDU session established,REGISTERED,"STALLED - RA/RRC completed, DU log silent after last connected UE, PDU session never delivered",709.4,DU CPU remained active (~140%) but produced zero new log lines for 4+ minutes after this UE's RA; UE1-12 (already connected) remained functional throughout (verified via ping)
+14,VoD,208950000000044,N/A - no PDU session established,REGISTERED,"STALLED - RA/RRC completed, DU log silent after last connected UE, PDU session never delivered",709.4,DU CPU remained active (~140%) but produced zero new log lines for 4+ minutes after this UE's RA; UE1-12 (already connected) remained functional throughout (verified via ping)
+15,Live video,208950000000045,N/A - no PDU session established,REGISTERED,"STALLED - RA/RRC completed, DU log silent after last connected UE, PDU session never delivered",709.4,DU CPU remained active (~140%) but produced zero new log lines for 4+ minutes after this UE's RA; UE1-12 (already connected) remained functional throughout (verified via ping)
+16,V2X,208950000000046,N/A - no PDU session established,REGISTERED,"STALLED - RA/RRC completed, DU log silent after last connected UE, PDU session never delivered",709.4,DU CPU remained active (~140%) but produced zero new log lines for 4+ minutes after this UE's RA; UE1-12 (already connected) remained functional throughout (verified via ping)

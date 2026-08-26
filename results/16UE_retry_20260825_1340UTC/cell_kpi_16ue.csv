@@ -1,0 +1,15 @@
+metric,value,unit,note
+registered_ues_5gmm,16,count,"16/16 -- confirmed via AMF UE table, all REGISTERED"
+pdu_sessions_established,12,count,12/16. UE13-16 STALLED. HEALTH GATE FAILED.
+pfcp_rejections,0,count,0 -- this stall is NOT a PFCP/SMF issue this time
+ra_rrc_failures,0,count,"all 16 completed RA/RRC (CBRA succeeded, UE Connected) per DU log"
+du_log_silence_duration,4+ minutes,time,DU log stopped at 13:44:19.220657 (RNTI 0x2b47 connected) and produced zero further lines through the point of stopping
+du_cpu_at_failure,141,%,"of 1000% (10 cores) -- DU was CPU-ACTIVE, not blocked/idle, while log-silent"
+cu_cpu_at_failure,4.9,%,"unchanged, CU not implicated"
+du_rss_at_failure,1076,MB,
+cu_rss_at_failure,159,MB,
+host_mem_at_failure,12GB used / 8.1GB free / 10GB available,,of 23GB total -- MUCH healthier than the prior 15.9GB-limit attempt (761MB free); memory pressure is NOT the cause of this stall
+per_ue_process_rss,"~692-719 (dropped slightly for UE13-16, still connecting)",MB,
+already_connected_ues_impact,UE1 ping still succeeded (0% loss) but RTT elevated to ~114-129ms vs typical ~40-90ms,,suggests degraded but not fully broken scheduling for already-connected UEs while DU struggles to onboard new ones
+wsl_ram_confirmed,23,GiB,confirmed via free -h before launch
+wsl_cpu_confirmed,10,count,confirmed via nproc before launch

@@ -1,0 +1,58 @@
+=== timestamp ===
+2026-08-26 12:33:36 UTC
+=== AMF registration table (most recent) ===
+   |  Index |     5GMM State     |                IMSI/SUPI               |        GUTI        |   RAN UE NGAP ID   |   AMF UE NGAP ID   |        PLMN        |       Cell Id      |
+   |    1   |   5GMM-REGISTERED  |             208950000000031            |20895010041575261093|        0x01        |        0x01        |       208,95       |      0000e014e     |
+   |    2   |   5GMM-REGISTERED  |             208950000000032            |20895010041336897975|        0x02        |        0x02        |       208,95       |      0000e014e     |
+   |    3   |   5GMM-REGISTERED  |             208950000000033            |20895010041082315110|        0x03        |        0x03        |       208,95       |      0000e014e     |
+   |    4   |   5GMM-REGISTERED  |             208950000000034            |20895010041302431533|        0x04        |        0x04        |       208,95       |      0000e014e     |
+   |    5   |   5GMM-REGISTERED  |             208950000000035            |20895010041416698355|        0x05        |        0x05        |       208,95       |      0000e014e     |
+   |    6   |   5GMM-REGISTERED  |             208950000000036            |20895010041148222797|        0x06        |        0x06        |       208,95       |      0000e014e     |
+   |    7   |   5GMM-REGISTERED  |             208950000000037            |20895010041399637272|        0x07        |        0x07        |       208,95       |      0000e014e     |
+   |    8   |   5GMM-REGISTERED  |             208950000000038            |20895010041268311805|        0x08        |        0x08        |       208,95       |      0000e014e     |
+   |    9   |   5GMM-REGISTERED  |             208950000000039            |20895010041371466021|        0x09        |        0x09        |       208,95       |      0000e014e     |
+   |   10   |   5GMM-REGISTERED  |             208950000000040            |20895010041149349784|        0x0A        |        0x0A        |       208,95       |      0000e014e     |
+   |   11   |   5GMM-REGISTERED  |             208950000000041            |20895010041136025229|        0x0B        |        0x0B        |       208,95       |      0000e014e     |
+   |   12   |   5GMM-REGISTERED  |             208950000000042            |20895010041375007459|        0x0C        |        0x0C        |       208,95       |      0000e014e     |
+   |   13   |   5GMM-REGISTERED  |             208950000000043            |20895010041181548971|        0x0D        |        0x0D        |       208,95       |      0000e014e     |
+   |   14   |   5GMM-REGISTERED  |             208950000000044            |20895010041649305199|        0x0E        |        0x0E        |       208,95       |      0000e014e     |
+   |   15   |   5GMM-REGISTERED  |             208950000000045            |20895010041247143296|        0x0F        |        0x0F        |       208,95       |      0000e014e     |
+   |   16   |   5GMM-REGISTERED  |             208950000000046            |20895010041383533561|        0x10        |        0x10        |       208,95       |      0000e014e     |
+   |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+=== per-UE tunnel IPs ===
+ue1 (native):
+    inet 12.1.1.130/24 scope global oaitun_ue1
+ue2:     inet 12.1.1.131/24 scope global oaitun_ue1
+ue3:     inet 12.1.1.132/24 scope global oaitun_ue1
+ue4:     inet 12.1.1.133/24 scope global oaitun_ue1
+ue5:     inet 12.1.1.134/24 scope global oaitun_ue1
+ue6:     inet 12.1.1.135/24 scope global oaitun_ue1
+ue7:     inet 12.1.1.136/24 scope global oaitun_ue1
+ue8:     inet 12.1.1.137/24 scope global oaitun_ue1
+ue9:     inet 12.1.1.138/24 scope global oaitun_ue1
+ue10:     inet 12.1.1.139/24 scope global oaitun_ue1
+ue11:     inet 12.1.1.140/24 scope global oaitun_ue1
+ue12:     inet 12.1.1.141/24 scope global oaitun_ue1
+ue13:     inet 12.1.1.142/24 scope global oaitun_ue1
+ue14:     inet 12.1.1.143/24 scope global oaitun_ue1
+ue15:     inet 12.1.1.144/24 scope global oaitun_ue1
+ue16:     inet 12.1.1.145/24 scope global oaitun_ue1
+=== process liveness ===
+CU: 4
+DU: 4
+UE processes (native+namespaced): 34
+=== DU log error scan (last 500 lines) ===
+0
+=== docker container health ===
+oai-udr: Up 30 minutes (healthy)
+oai-udm: Up 30 minutes (healthy)
+oai-smf: Up 30 minutes (healthy)
+oai-upf: Up 30 minutes (healthy)
+oai-amf: Up 30 minutes (healthy)
+oai-ausf: Up 30 minutes (healthy)
+mysql: Up 30 minutes (healthy)
+oai-nrf: Up 30 minutes (healthy)
+oai-ext-dn: Up 30 minutes (healthy)
+=== iperf3 server ports listening ===
+16

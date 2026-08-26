@@ -1,0 +1,89 @@
+=== per-UE latest PHY/MAC snapshot ===
+--- ue1 ---
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 2379/0 avg code rate 0.8, avg bit/symbol 4.5, avg per TB: (nb RBs 5.7, nb symbols 11.8)
+    UL harq: 16444/0 avg code rate 0.7, avg bit/symbol 3.9, avg per TB: (nb RBs 6.1, nb symbols 12.5)
+--- ue2 ---
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1333/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 7958/0 avg code rate 0.8, avg bit/symbol 4.5, avg per TB: (nb RBs 6.0, nb symbols 12.7)
+--- ue3 ---
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1325/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.0, nb symbols 12.7)
+    UL harq: 7865/0 avg code rate 0.8, avg bit/symbol 4.6, avg per TB: (nb RBs 6.1, nb symbols 12.7)
+--- ue4 ---
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1316/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 9691/0 avg code rate 0.7, avg bit/symbol 4.6, avg per TB: (nb RBs 5.8, nb symbols 12.7)
+--- ue5 ---
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1383/0 avg code rate 0.8, avg bit/symbol 5.2, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11794/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.2, nb symbols 12.9)
+--- ue6 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1384/0 avg code rate 0.8, avg bit/symbol 5.2, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 16585/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.1)
+--- ue7 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1324/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 7671/0 avg code rate 0.8, avg bit/symbol 4.5, avg per TB: (nb RBs 5.9, nb symbols 12.7)
+--- ue8 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1251/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 12.8)
+    UL harq: 14471/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 16.2, nb symbols 11.0)
+--- ue9 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1225/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.9, nb symbols 12.8)
+    UL harq: 14257/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 16.2, nb symbols 11.1)
+--- ue10 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1340/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.5, nb symbols 12.8)
+    UL harq: 15131/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 18.1, nb symbols 10.8)
+--- ue11 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1359/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.2, nb symbols 12.8)
+    UL harq: 15250/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 18.1, nb symbols 10.7)
+--- ue12 ---
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 2063/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 14.9, nb symbols 12.6)
+    UL harq: 28757/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 27.8, nb symbols 9.7)
+--- ue13 ---
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1910/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 10.0, nb symbols 12.8)
+    UL harq: 28794/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 27.8, nb symbols 9.7)
+--- ue14 ---
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1686/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 9.0, nb symbols 12.8)
+    UL harq: 25005/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 24.2, nb symbols 9.7)
+--- ue15 ---
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1665/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 7.3, nb symbols 12.9)
+    UL harq: 26274/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 22.9, nb symbols 10.0)
+--- ue16 ---
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1439/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16718/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+
+=== DU/CU CPU (live) ===
+DU_PID=17698
+    PID %CPU %MEM     ELAPSED
+  17698  0.0  0.0       37:16
+CU_PID=17345
+    PID %CPU %MEM     ELAPSED
+  17345  0.0  0.0       37:22
+
+=== memory ===
+               total        used        free      shared  buff/cache   available
+Mem:           24033       13505        9624           4         902       10225
+Swap:           4096           0        4096
+
+=== F1/NGAP/PFCP status (post-traffic error scan) ===
+DU log F1 errors (last 2000 lines): 0
+AMF NGAP errors (docker logs, since 10m): 0
+SMF PFCP errors (docker logs, since 10m): 0
+UPF PFCP errors (docker logs, since 10m): 0
+
+=== PRB utilization check (known limitation from Phase 1/2) ===
+UE 8741: ulsch_rounds 57/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01668 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.2 (+2.2) RSSI -41.8 CCE fail 6
+UE 62af: ulsch_rounds 56/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.03874 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 21.9 (+1.9) RSSI -42.0 CCE fail 6
+UE 0872: ulsch_rounds 28/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.06561 MCS (0) 0 (Qm 2 deltaMCS 0) NPRB 5 SNR 22.3 (+2.3) RSSI -41.9 CCE fail 6

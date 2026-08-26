@@ -1,0 +1,21 @@
+metric,value,unit,note
+registered_ues,8,count,of 16 MAX_MOBILES_PER_GNB ceiling
+unique_pfcp_seids,8,count,"0x4-0xb, no collisions"
+aggregate_packets_sent,400,packets,50 per UE x 8 UEs
+aggregate_packets_received,400,packets,
+aggregate_packet_loss,0.0,%,
+aggregate_offered_throughput,2.944,kbps,sum of 8x mMTC ping offered load
+cell_avg_rtt_ms,72.04,ms,"mean of per-UE avg RTT -- a CELL-LEVEL summary, not a per-UE KPI"
+du_cpu_before,183,%,
+du_cpu_during,183,%,
+du_cpu_after,183,%,
+cu_cpu_before,5.0,%,
+cu_cpu_during,5.0,%,
+cu_cpu_after,5.0,%,
+host_mem_used_before,7823,MB,of 15890MB total
+host_mem_used_during,7896,MB,
+host_mem_used_after,7978,MB,
+f1_du_cu,stable,status,"no restarts, no new setup"
+ngap_cu_amf,stable,status,8 active UE NGAP contexts
+pfcp_smf_upf,"stable, 0 rejections",status,8 active sessions
+prb_utilization_pct,not directly available,N/A,same OAI logging limitation as 1UE/4UE

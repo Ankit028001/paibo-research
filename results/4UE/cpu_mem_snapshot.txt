@@ -1,0 +1,24 @@
+=== UE process CPU snapshot ===
+  23822  0.0  0.0    02:07:39 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+  23844  0.0  0.0    02:07:36 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+  23845  185  6.4    02:07:36 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+  23846  0.0  0.0    02:07:36 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-du.sa.band78.106prb.rfsim.pci0.conf --rfsim --device.name rfsimulator
+  61526  0.0  0.0    01:50:16 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+  61527  0.0  0.0    01:50:16 sudo ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+  61528  5.0  0.9    01:50:16 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+  61529  0.0  0.0    01:50:16 ./cmake_targets/ran_build/build/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-cu.sa.f1.conf
+ 275127  0.0  0.0       12:52 bash -c cd /home/ankit/oai/openairinterface5g/cmake_targets/ran_build/build && date -u '+%Y-%m-%d %H:%M:%S UTC' && sudo -n ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 > /home/ankit/paibo-research/_runtime/ue1_relaunch.log 2>&1
+ 275129  0.0  0.0       12:52 sudo -n ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+ 275130  0.0  0.0       12:52 sudo -n ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+ 275131 57.0  4.4       12:52 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+ 275132  0.0  0.0       12:52 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516
+ 279844 57.2  4.4       10:47 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000032 --rfsimulator.[0].serveraddr 10.202.1.100
+ 279846  0.0  0.0       10:47 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000032 --rfsimulator.[0].serveraddr 10.202.1.100
+ 279932 57.9  4.4       10:45 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000033 --rfsimulator.[0].serveraddr 10.203.1.100
+ 279934  0.0  0.0       10:45 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000033 --rfsimulator.[0].serveraddr 10.203.1.100
+ 280041 57.0  4.4       10:43 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000034 --rfsimulator.[0].serveraddr 10.204.1.100
+ 280043  0.0  0.0       10:43 ./nr-uesoftmodem -O /home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf --rfsim -C 3450720000 -r 106 --numerology 1 --band 78 --ssb 516 --uicc0.imsi 208950000000034 --rfsimulator.[0].serveraddr 10.204.1.100
+
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       4.9Gi       9.0Gi       4.0Mi       1.6Gi        10Gi
+Swap:          4.0Gi          0B       4.0Gi

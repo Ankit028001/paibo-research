@@ -1,0 +1,17 @@
+ue_id,imsi,use_case,traffic_profile
+1,208950000000031,mMTC,mmtc
+2,208950000000032,mMTC,mmtc
+3,208950000000033,mMTC,mmtc
+4,208950000000034,mMTC,mmtc
+5,208950000000035,mMTC,mmtc
+6,208950000000036,mMTC,mmtc
+7,208950000000037,mMTC,mmtc
+8,208950000000038,Web application,web
+9,208950000000039,Web application,web
+10,208950000000040,Mobile application,mobile
+11,208950000000041,Mobile application,mobile
+12,208950000000042,Video on Demand,vod
+13,208950000000043,Video on Demand,vod
+14,208950000000044,Live video,live
+15,208950000000045,Live video,live
+16,208950000000046,V2X,v2x

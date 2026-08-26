@@ -1,0 +1,2053 @@
+CMDLINE: "./nr-uesoftmodem" "-O" "/home/ankit/oai/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf" "--rfsim" "-C" "3450720000" "-r" "106" "--numerology" "1" "--band" "78" "--ssb" "516" "--uicc0.imsi" "208950000000046" "--rfsimulator.[0].serveraddr" "10.216.1.100" 
+[UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+[0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool2_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool3_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool4_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool5_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
+[0m[OPT]    OPT disabled
+[0m[HW]     Version: Branch: develop Abrev. Hash: 2b69bde6ae Date: Fri Aug 14 09:43:59 2026 +0200
+[0m[NR_RRC] create TASK_RRC_NRUE 
+[0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
+[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
+[0m[SIM]    UICC simulation: IMSI=208950000000046, IMEISV=6754567890123413, Ki=0C0A34601D4F07677303652C0462535B, OPc=63bfa50ee6523365ff14c1f45f88737d
+[0m[SIM]    overriding potential uicc0.dnn/nssai_sst/nssai_sd from uicc0.pdu_sessions
+[0m[SIM]    will request PDU session ID 1, type 1, DNN oai, NSSAI 1.ffffff
+[0m[NR_MAC] [UE0] Initializing MAC
+[0m[NR_MAC] Initializing dl and ul config_request. num_slots = 20
+[0m[RLC]    Activated srb0 for UE 0
+[0m[UTIL]   threadCreate() for time source iq samples: creating thread with affinity ffffffff, priority 2
+[0m[UTIL]   time manager configuration: [time source: iq_samples] [mode: standalone] [server IP: 127.0.0.1} [server port: 7374] (server IP/port not used)
+[0m[PHY]    Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ofdm_offset_divisor 8
+[0m[PHY]    SA init parameters. DL freq 3450720000 UL offset 0 SSB numerology 1 N_RB_DL 106
+[0m[PHY]    Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[0m[93m[PHY]    samples_per_subframe 61440/per second 61440000, wCP 57344
+[0m[PHY]    Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+, chest-freq 0, chest-time 0
+[0m[UTIL]   threadCreate() for SYNC__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
+[0m[PHY]    Initializing UE vars for gNB TXant 1, UE RXant 1
+[0m[PHY]    prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+[0m[PHY]    HW: Configuring ru_id 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]    HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3450720000 Hz, rx_freq 3450720000 Hz, tune_offset 0
+[0m[PHY]    HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[UTIL]   threadCreate() for ru_start_thread: creating thread with affinity ffffffff, priority 97
+[0m[CONFIG] Created new array parameter rfsimulator.[0]
+[CONFIG] New parameter set: serveraddr
+[HW]     Running as client: will connect to a rfsimulator server side
+[0m[HW]     [RAU] has loaded RFSIMULATOR device.
+[0m[HW]     Trying to connect to 10.216.1.100:4043
+[0m[HW]     Connection to 10.216.1.100:4043 established
+[0m[32m[HW]     RFsim: Number of antennas changed from 0 to 1
+[0m[PHY]    Intializing UE Threads for instance 0 ...
+[0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
+[0m[93m[PHY]    SSB position provided
+[0m[93m[NR_PHY] Starting sync detection
+[0m[PHY]    [UE thread Synch] Running Initial Synch 
+[0m[NR_PHY] Starting cell search with center freq: 3450720000, bandwidth: 106. Scanning for 1 number of GSCN.
+[0m[NR_PHY] Scanning GSCN: 0, with SSB offset: 516, SSB Freq: 0.000000
+[0m[32m[PHY]    Initial sync: pbch decoded sucessfully, ssb index 0
+[0m[PHY]    pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
+[0m[NR_PHY] Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 90 dB, PSS Corr Average: 55
+[0m[PHY]    [UE0] In synch, rx_offset 122880 samples
+[0m[PHY]    [UE 0] Measured Carrier Frequency offset 0 Hz
+[0m[32m[PHY]    Initial sync successful, PCI: 0
+[0m[PHY]    HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3450720000 Hz, rx_freq 3450720000 Hz, tune_offset 0
+[0m[PHY]    Got synch: hw_slot_offset 8, carrier off 0 Hz
+[0m[NR_RRC] [UE 0] BCCH update: phyCellID 0->0, arfcn_ssb 0->630048
+[0m[32m[PHY]    UE synchronized! decoded_frame_rx=418 UE->init_sync_frame=0 trashed_frames=6
+[0m[PHY]    Resynchronizing RX by 122880 samples
+[0m[HW]     received write reorder clear context
+[0m[PHY]    max_pos_acc = 0, shiftForNextFrame = 0
+[0m[32m[NR_RRC] SIB1 decoded
+[0m[NR_MAC] [UE 0] Initial cell selection: dl_frequency=3431640 kHz (from command-line, band=78, scs=1)
+[0m[NR_MAC] Initial cell selection: uplink_frequency=3431640 kHz (from dl_frequency=3431640 kHz)
+[0m[NR_MAC] TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
+[0m[NR_MAC] Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
+[0m[NR_MAC] Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
+[0m[PHY]    N_TA_offset changed from 0 to 800
+[0m[MAC]    Initialization of 4-Step CBRA procedure
+[0m[NR_MAC] [UE 0] selected PRACH occasion: start_symbol 4 fdm 0 slot 19 format 162
+[0m[NR_MAC] PRACH scheduler: Selected RO Frame 427, Slot 19, Symbol 4, Fdm 0
+[0m[PHY]    PRACH [UE 0] in frame.slot 427.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0, preambleIndex = 47
+[0m[PHY]    [UE 0] RAR-Msg2 decoded
+[0m[NR_MAC] [UE 0][RAPROC][RA-RNTI 010f] Got BI RAR subPDU 5 ms
+[0m[NR_MAC] [UE 0][RAPROC][RA-RNTI 010f] Got RAPID RAR subPDU
+[0m[32m[NR_MAC] [UE 0][RAPROC][428.10] Found RAR with the intended RAPID 47
+[0m[93m[MAC]    received TA command 31
+[0m[32m[NR_MAC] [RAPROC][428.17] RA-Msg3 transmitted
+[0m[32m[NR_MAC] [UE 0][429.4][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+[0m[NR_RRC] [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+[0m[RLC]    Added srb 1 to UE 0
+[0m[NR_RRC] State = NR_RRC_CONNECTED
+[0m[NAS]    Generate Initial NAS Message: Registration Request
+[0m[NR_RRC] [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+[0m[NAS]    [UE 0] Received NR_NAS_CONN_ESTABLISH_IND: asCause 0
+[0m[MAC]    [UE 0] Applying CellGroupConfig from gNodeB
+[0m[NAS]    [UE 0] Received NAS_DOWNLINK_DATA_IND type FGS_AUTHENTICATION_REQUEST with length 42
+[0m[NAS]    [UE 0] Received NAS_DOWNLINK_DATA_IND type FGS_SECURITY_MODE_COMMAND with length 21
+[0m[NAS]    Generate Initial NAS Message: Registration Request
+[0m[NR_RRC] Received securityModeCommand (gNB 0)
+[0m[NR_RRC] Receiving from SRB1 (DL-DCCH), Processing securityModeCommand
+[0m[NR_RRC] Security algorithm is set to nea0
+[0m[NR_RRC] Integrity protection algorithm is set to nia2
+[0m[NR_RRC] Receiving from SRB1 (DL-DCCH), encoding securityModeComplete, rrc_TransactionIdentifier: 1
+[0m[NR_RRC] Received Capability Enquiry (gNB 0)
+[0m[NR_RRC] Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
+[0m[CONFIG] function config_libconfig_init returned 0
+Initializing random number generator, seed 18279483120307360775
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+kausf:ea 1a 59 ce 9a 68 a4 4c c9 bc 7a 4 df be 34 94 f3 8e 57 30 bd 10 fc 19 19 3a 2c 54 3b f7 50 17 
+kseaf:44 d9 92 22 98 15 aa ab a4 43 27 aa 2e 20 56 2d 60 23 9f 50 67 e6 ee 78 58 aa cd 70 ed df 19 25 
+kamf:16 c6 fa 5b da 2d fb 44 c3 a2 33 ad 6e fc d5 d9 f1 bd f3 12 9d 6 43 ec e9 a8 86 fd 26 f3 da a0 
+knas_int: 33 96 34 6b ef a5 5 4c 20 ca 50 1c be be 3f 8c 
+knas_enc: ef a0 e4 2e cc f6 d8 48 6d a2 fa d dd 27 e9 1f 
+mac 2f 5e af ce 
+[NR_RRC] deriving kRRCenc, kRRCint from KgNB=21 d6 21 ea 65 79 3d 01 da 90 d7 04 5b fa 93 f3 b7 fc 27 4a c9 36 90 0b a4 eb 4f 69 25 95 35 af [0m
+[NR_RRC] securityModeComplete payload: 2a 00 00 00 00 00 00 00 f0 00 00 00 00 00 00 00 [0m
+<UE-NR-Capability>
+    <accessStratumRelease><rel15/></accessStratumRelease>
+    <pdcp-Parameters>
+        <supportedROHC-Profiles>
+            <profile0x0000><false/></profile0x0000>
+            <profile0x0001><false/></profile0x0001>
+            <profile0x0002><false/></profile0x0002>
+            <profile0x0003><false/></profile0x0003>
+            <profile0x0004><false/></profile0x0004>
+            <profile0x0006><false/></profile0x0006>
+            <profile0x0101><false/></profile0x0101>
+            <profile0x0102><false/></profile0x0102>
+            <profile0x0103><false/></profile0x0103>
+            <profile0x0104><false/></profile0x0104>
+        </supportedROHC-Profiles>
+        <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
+    </pdcp-Parameters>
+    <phy-Parameters>
+    </phy-Parameters>
+    <rf-Parameters>
+        <supportedBandListNR>
+            <BandNR>
+                <bandNR>1</bandNR>
+            </BandNR>
+        </supportedBandListNR>
+    </rf-Parameters>
+</UE-NR-Capability>
+[PHY]    [RRC]UE NR Capability encoded, 10 bytes (86 bits)
+[0m[NR_RRC] UECapabilityInformation Encoded 106 bits (14 bytes)
+[0m[NAS]    [UE 0] Received NAS_DOWNLINK_DATA_IND type FGS_REGISTRATION_ACCEPT with length 53
+[0m[NAS]    Received Registration Accept with result 3GPP
+[0m[NAS]    SMS not allowed in 5GS Registration Result
+[0m[NR_RRC] 5G-GUTI: AMF pointer 1, AMF Set ID 1, 5G-TMSI 3835335614 
+[0m[NAS]    Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
+[0m[NAS]    requested PDU session ID 1 type 1 NSSAI 1.16777215 DNN oai
+[0m[NAS]    Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
+[0m[NR_MAC] [UE 0] paging UE_ID=958
+[0m[RLC]    Added srb 2 to UE 0
+[0m[RLC]    Added drb 1 to UE 0
+[0m[RLC]    Added DRB to UE 0
+[0m[NR_RRC] RRCReconfiguration includes radio Bearer Configuration
+[0m[MAC]    [UE 0] Applying CellGroupConfig from gNodeB
+[0m[93m[SDAP]    Could not find SDAP entity: entity list empty (ue_id=0 pdu_session_id=1)
+[0m[SDAP]   Creating SDAP entity ue_id=0 pdu_session_id=1
+[0m[SDAP]   Default DRB for the created SDAP entity: DRB 1 
+[0m[PDCP]   Added DRB 1 to UE ID 0
+[0m[NR_RRC] State = NR_RRC_CONNECTED
+[0m[NR_RRC] RRCReconfiguration includes Measurement Configuration
+[0m[93m[NR_RRC] Measurement gaps not yet supported!
+[0m[NR_RRC] rrcReconfigurationComplete Encoded 10 bits (2 bytes)
+[0m[NR_RRC]  Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
+[0m[NAS]    [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 98
+[0m[NAS]    Received PDU Session Establishment Accept, UE IPv4: 12.1.1.145
+[0m[SDAP]   UE 0 PDU session 1: cached QFI 1
+[0m[SDAP]   UE 0 PDU session 1: bringing TUN oaitun_ue1 up
+[0m[UTIL]   threadCreate() for ue_tun_read_0_p1: creating thread with affinity ffffffff, priority 1
+[0m[32m[OIP]    TUN Interface oaitun_ue1 successfully configured, IPv4 12.1.1.145, IPv6 (null)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 13/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 0.4, nb symbols 1.0)
+    UL harq: 56/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 10.5, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 17/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 1.5, nb symbols 3.8)
+    UL harq: 109/0 avg code rate 0.3, avg bit/symbol 2.4, avg per TB: (nb RBs 7.8, nb symbols 12.0)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 21/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 2.1, nb symbols 5.6)
+    UL harq: 152/0 avg code rate 0.4, avg bit/symbol 3.1, avg per TB: (nb RBs 7.0, nb symbols 12.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 23/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 2.4, nb symbols 6.2)
+    UL harq: 199/0 avg code rate 0.5, avg bit/symbol 3.7, avg per TB: (nb RBs 6.6, nb symbols 12.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 25/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 2.6, nb symbols 6.8)
+    UL harq: 244/0 avg code rate 0.5, avg bit/symbol 4.3, avg per TB: (nb RBs 6.3, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 29/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 2.9, nb symbols 7.6)
+    UL harq: 291/0 avg code rate 0.6, avg bit/symbol 4.7, avg per TB: (nb RBs 6.1, nb symbols 12.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 32/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.1, nb symbols 8.1)
+    UL harq: 343/0 avg code rate 0.7, avg bit/symbol 5.0, avg per TB: (nb RBs 5.9, nb symbols 12.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 34/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.2, nb symbols 8.4)
+    UL harq: 394/0 avg code rate 0.7, avg bit/symbol 5.2, avg per TB: (nb RBs 5.8, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 37/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.4, nb symbols 8.8)
+    UL harq: 443/0 avg code rate 0.8, avg bit/symbol 5.4, avg per TB: (nb RBs 5.7, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 39/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.5, nb symbols 9.0)
+    UL harq: 487/0 avg code rate 0.8, avg bit/symbol 5.5, avg per TB: (nb RBs 5.6, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 43/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.6, nb symbols 9.4)
+    UL harq: 531/0 avg code rate 0.8, avg bit/symbol 5.5, avg per TB: (nb RBs 5.6, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 45/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.7, nb symbols 9.5)
+    UL harq: 578/0 avg code rate 0.8, avg bit/symbol 5.6, avg per TB: (nb RBs 5.5, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 48/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.8, nb symbols 9.8)
+    UL harq: 623/0 avg code rate 0.8, avg bit/symbol 5.6, avg per TB: (nb RBs 5.5, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 50/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.8, nb symbols 9.9)
+    UL harq: 677/0 avg code rate 0.8, avg bit/symbol 5.6, avg per TB: (nb RBs 5.5, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 53/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.9, nb symbols 10.1)
+    UL harq: 727/0 avg code rate 0.8, avg bit/symbol 5.7, avg per TB: (nb RBs 5.4, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 56/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 3.9, nb symbols 10.2)
+    UL harq: 772/0 avg code rate 0.9, avg bit/symbol 5.7, avg per TB: (nb RBs 5.4, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 58/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.0, nb symbols 10.3)
+    UL harq: 818/0 avg code rate 0.9, avg bit/symbol 5.7, avg per TB: (nb RBs 5.4, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 60/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.0, nb symbols 10.4)
+    UL harq: 860/0 avg code rate 0.9, avg bit/symbol 5.7, avg per TB: (nb RBs 5.4, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 62/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.0, nb symbols 10.5)
+    UL harq: 907/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 66/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.1, nb symbols 10.6)
+    UL harq: 958/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 69/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.1, nb symbols 10.7)
+    UL harq: 1008/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 71/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.2, nb symbols 10.8)
+    UL harq: 1056/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 74/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.2, nb symbols 10.9)
+    UL harq: 1100/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 77/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.2, nb symbols 11.0)
+    UL harq: 1143/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 79/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.2, nb symbols 11.0)
+    UL harq: 1186/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 81/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.3, nb symbols 11.1)
+    UL harq: 1235/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.3, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 85/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.5, nb symbols 11.2)
+    UL harq: 1284/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 88/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.5, nb symbols 11.2)
+    UL harq: 1333/0 avg code rate 0.9, avg bit/symbol 5.8, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 90/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.3)
+    UL harq: 1377/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 92/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.3)
+    UL harq: 1424/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 95/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.4)
+    UL harq: 1465/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 98/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.4)
+    UL harq: 1513/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 100/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.4)
+    UL harq: 1565/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 103/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.5)
+    UL harq: 1617/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 105/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.5)
+    UL harq: 1664/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 108/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.6)
+    UL harq: 1709/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 110/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.6)
+    UL harq: 1752/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 113/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.6, nb symbols 11.6)
+    UL harq: 1796/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 115/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.6)
+    UL harq: 1841/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 118/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.7)
+    UL harq: 1897/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 121/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.7)
+    UL harq: 1944/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 123/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.7)
+    UL harq: 1989/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 125/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.8)
+    UL harq: 2036/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.2, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 129/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.8)
+    UL harq: 2080/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 132/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.8)
+    UL harq: 2126/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 134/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.8)
+    UL harq: 2177/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 136/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.9)
+    UL harq: 2227/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 140/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.9)
+    UL harq: 2274/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 142/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.9)
+    UL harq: 2320/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 144/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.9)
+    UL harq: 2363/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 146/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 11.9)
+    UL harq: 2406/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 150/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 12.0)
+    UL harq: 2459/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 152/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 12.0)
+    UL harq: 2508/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 154/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 12.0)
+    UL harq: 2557/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 156/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 12.0)
+    UL harq: 2602/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 159/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.7, nb symbols 12.0)
+    UL harq: 2644/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 162/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.0)
+    UL harq: 2688/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 164/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.0)
+    UL harq: 2738/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 167/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 2791/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 169/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 2840/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 172/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 2888/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 174/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 2935/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 177/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 2975/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 179/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 3017/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 182/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.1)
+    UL harq: 3070/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 185/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3121/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 187/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3168/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 189/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3215/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 192/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3262/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 195/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3307/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 197/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3355/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 199/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3409/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 203/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3460/0 avg code rate 0.9, avg bit/symbol 5.9, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 205/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3505/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 207/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.2)
+    UL harq: 3555/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 209/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3594/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 213/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3642/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 215/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3693/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 217/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3743/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 219/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3790/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 223/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3838/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 225/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3879/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 227/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3926/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 230/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 3973/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 233/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 4026/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 235/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 4073/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 237/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.3)
+    UL harq: 4118/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 241/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4168/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 243/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4209/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 246/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4258/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 249/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4310/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 251/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4358/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 253/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4406/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 256/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4452/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 259/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4495/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 261/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4539/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 263/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.8, nb symbols 12.4)
+    UL harq: 4589/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 267/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4644/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 269/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4691/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 271/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4738/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 273/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4787/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 277/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4830/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 279/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4877/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 281/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4928/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 283/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.4)
+    UL harq: 4974/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 287/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5021/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 289/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5069/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 291/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5113/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 294/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5156/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 297/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5207/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 299/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5253/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 301/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5304/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 304/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5349/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 307/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5393/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 309/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5436/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 312/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5485/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 314/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5536/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 317/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5586/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 319/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5630/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 322/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5678/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 324/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5719/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 326/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5765/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 330/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5816/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 332/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5869/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 334/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5917/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 336/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 5963/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 340/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 6010/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 342/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 6052/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 344/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 6100/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 346/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.5)
+    UL harq: 6153/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 350/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6202/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 352/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6245/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 354/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6294/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 357/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6334/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 360/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6384/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 362/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6433/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 364/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6482/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 367/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6529/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 370/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6575/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 372/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6620/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 375/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6666/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 377/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6710/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 380/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6765/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 382/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6815/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 385/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6858/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 387/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6905/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 390/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6947/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 393/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 6994/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 395/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7046/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 397/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7094/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 400/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7144/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 403/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7189/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 405/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7232/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 407/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7275/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 410/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7326/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 413/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7377/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 41.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 415/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7426/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 417/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7470/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 420/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7513/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 423/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7557/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 425/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7608/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 427/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7662/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 430/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7710/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 433/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7757/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 435/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 4.9, nb symbols 12.6)
+    UL harq: 7805/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.0, nb symbols 12.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 457/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 12.7)
+    UL harq: 7914/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.3, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 486/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8043/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 5.8, nb symbols 12.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 512/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8185/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 6.3, nb symbols 12.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 538/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8322/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 6.7, nb symbols 12.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 568/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8484/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 7.2, nb symbols 12.0)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 595/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8631/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 7.7, nb symbols 11.9)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 626/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8810/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 8.2, nb symbols 11.8)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 654/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.7)
+    UL harq: 8946/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 8.7, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 701/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 9196/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 768/0 avg code rate 0.3, avg bit/symbol 2.6, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 9592/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 827/0 avg code rate 0.5, avg bit/symbol 3.5, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 9908/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 885/0 avg code rate 0.7, avg bit/symbol 4.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 10215/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 965/0 avg code rate 0.7, avg bit/symbol 4.6, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 10656/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.9, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1023/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 10945/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.3, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1084/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11253/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.7, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1156/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11660/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.3, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1158/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11701/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.3, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1160/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11746/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.2, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1164/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11786/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.2, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1166/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11827/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.2, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 46.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1168/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11871/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.2, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1170/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11912/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.1, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1174/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 11962/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.1, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 41.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1176/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12001/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.1, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1178/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12049/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.0, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1181/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12086/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.0, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1183/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12124/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.0, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1186/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12162/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 13.0, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1188/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12205/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.9, nb symbols 11.2)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1191/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12245/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.9, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1193/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12282/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.9, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1196/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12325/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.8, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1199/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.8)
+    UL harq: 12359/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.8, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1201/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12404/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.8, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1203/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12451/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.8, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1206/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12497/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.7, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1209/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12536/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.7, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1211/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12573/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.7, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1213/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12616/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.7, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1216/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12654/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.6, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1219/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12694/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.6, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1221/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12736/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.6, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1223/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12780/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.6, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1227/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12820/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.5, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1229/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12861/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.5, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1231/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12899/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.5, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1233/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12933/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.5, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1237/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 12977/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.5, nb symbols 11.3)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1239/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13017/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.4, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1241/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13053/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.4, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1244/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13089/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.4, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1247/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13125/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.4, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1249/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13166/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.3, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1251/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13213/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.3, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1254/0 avg code rate 0.8, avg bit/symbol 5.1, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13266/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.3, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1257/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13316/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.3, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1259/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13362/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.2, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1262/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13410/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.2, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1264/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13449/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.2, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1266/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13493/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.2, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1269/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13545/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.1, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1272/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13596/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.1, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1274/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13643/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.1, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1276/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13690/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.1, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1279/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13735/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.0, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1282/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13780/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.0, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1284/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13828/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.0, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1286/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13884/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 12.0, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1290/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13933/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.9, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1292/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 13976/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.9, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1294/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14025/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.9, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1296/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14066/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.9, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1300/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14115/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.9, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1302/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14166/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.8, nb symbols 11.4)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1304/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14216/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.8, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1307/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14264/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.8, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1310/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14310/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.8, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1312/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14352/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.7, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1314/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14397/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.7, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1318/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14446/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.7, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1321/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14499/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.7, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1323/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14546/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.7, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1326/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14591/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.6, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1328/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14638/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.6, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1331/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14681/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.6, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1333/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14730/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.6, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1336/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14781/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.5, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1338/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14828/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.5, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1341/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14877/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.5, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1343/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14922/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.5, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1346/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 14966/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.5, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1348/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15009/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.4, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1351/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15062/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.4, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1354/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15114/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.4, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1356/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15162/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.4, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1358/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15209/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.4, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1360/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15257/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.3, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1364/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15300/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.3, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1366/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15347/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.3, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1368/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15399/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.3, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 41.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1371/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15447/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.3, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1374/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15493/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.2, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1376/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15541/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.2, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1378/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15584/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.2, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1381/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15627/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.2, nb symbols 11.5)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1384/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15679/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.2, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1386/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15732/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1389/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15780/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1391/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15826/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1394/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15870/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1396/0 avg code rate 0.8, avg bit/symbol 5.0, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15912/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1399/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 15962/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.1, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1401/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16015/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1404/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16065/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1406/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16109/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1409/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16157/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1411/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16195/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1414/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16244/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 11.0, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1417/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16293/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.9, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1419/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16343/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.9, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1421/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16391/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.9, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1424/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16438/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.9, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1427/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16483/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.9, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1429/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16525/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.9, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1431/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16573/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1435/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16626/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 46.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1437/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16675/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1439/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16718/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1441/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16767/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1444/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16807/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.8, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1447/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16856/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.7, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1449/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16909/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.7, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1452/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 16958/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.7, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1454/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17005/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.7, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1457/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17051/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.7, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1459/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17096/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.7, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1462/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17141/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1464/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17188/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 41.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1467/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17243/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1469/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17292/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1472/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17335/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1474/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17382/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1477/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17425/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.6, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1480/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17472/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.5, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1482/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17524/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.5, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1484/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17572/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.5, nb symbols 11.6)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1487/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17621/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.5, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1490/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17667/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.5, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1492/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17710/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.5, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1494/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17753/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1498/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17804/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1500/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17855/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1502/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17904/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1504/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17949/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 45.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1508/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 17992/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1510/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18037/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.4, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1512/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18088/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1515/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18141/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1518/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18191/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1520/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18234/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1522/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18284/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1525/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18326/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1527/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18374/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1530/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18426/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.3, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1532/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18477/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1535/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18526/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1537/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18571/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1540/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18615/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1543/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18660/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1545/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18705/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1547/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18760/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.2, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1550/0 avg code rate 0.8, avg bit/symbol 4.9, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18811/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1553/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18854/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1555/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18902/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1557/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18942/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1561/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 18992/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1563/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19044/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1565/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19092/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1567/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19140/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.1, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1572/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19186/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1574/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19230/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1576/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19275/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1579/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19322/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1582/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19374/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1584/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19421/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 256.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1586/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19467/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 384.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1589/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19513/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 10.0, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 512.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1592/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19556/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.9, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 640.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 42.6 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1594/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19605/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.9, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 768.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1596/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19655/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.9, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 896.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1599/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19703/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.9, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 0.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 43.3 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1602/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19752/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.9, nb symbols 11.7)
+[0m[NR_RRC] MeasurementReport Encoded 53 bits (7 bytes)
+[0m[NR_MAC] UE 0 RNTI c9b3 stats sfn: 128.8, cumulated bad DCI 0
+    DL Chan: SSB 0 SINR 44.1 dB RSRP -42 dBm, RI 0 CQI: N/A
+    DL harq: 1604/0 avg code rate 0.8, avg bit/symbol 4.8, avg per TB: (nb RBs 5.1, nb symbols 12.9)
+    UL harq: 19799/0 avg code rate 0.9, avg bit/symbol 6.0, avg per TB: (nb RBs 9.9, nb symbols 11.7)
+[0m

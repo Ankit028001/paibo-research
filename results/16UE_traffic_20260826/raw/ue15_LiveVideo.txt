@@ -1,0 +1,14 @@
+Connecting to host 192.168.70.130, port 5215
+[  5] local 12.1.1.144 port 37258 connected to 192.168.70.130 port 5215
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-5.00   sec  2.38 MBytes  4.00 Mbits/sec  1727  
+[  5]   5.00-10.00  sec  2.38 MBytes  4.00 Mbits/sec  1726  
+[  5]  10.00-15.00  sec  2.38 MBytes  4.00 Mbits/sec  1727  
+[  5]  15.00-20.00  sec  2.38 MBytes  4.00 Mbits/sec  1726  
+[  5]  20.00-25.00  sec  2.38 MBytes  4.00 Mbits/sec  1727  
+[  5]  25.00-30.00  sec  2.38 MBytes  4.00 Mbits/sec  1726  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-30.00  sec  14.3 MBytes  4.00 Mbits/sec  0.000 ms  0/10359 (0%)  sender
+[  5]   0.00-30.00  sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  receiver
+iperf3: error - control socket has closed unexpectedly
