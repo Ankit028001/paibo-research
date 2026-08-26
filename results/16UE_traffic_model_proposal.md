@@ -42,7 +42,7 @@ No dedicated `traffic_model.md` or `channel_model.md` exists yet anywhere in the
 
 ## PHASE 2 — KPI classification
 
-Classified from the existing "KPI Availability" sheet in `PAIBO_Assignment_Results.xlsx`, plus the cell-level KPIs added during the 4/8/16-UE stages. Original KPI names preserved; meanings not altered to fit a bucket.
+Classified from the existing "KPI Availability" sheet in `PAIBO_Assignment_Results.xlsx`, plus the cell-level KPIs added during the 4/8/16-UE stages. Original KPI names preserved.
 
 | KPI name | Level | Source | Measurement method | Unit | Availability | Value (last measured) | UE/use case |
 |---|---|---|---|---|---|---|---|
