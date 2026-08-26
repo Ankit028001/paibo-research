@@ -20,7 +20,7 @@
 Contains the validated pre-traffic health gate: 16/16 registered, 16/16 PDU sessions, unique SEIDs/IPs, 0 PFCP/PAA failures. This is the baseline this new experiment will re-verify (not re-derive) before traffic.
 
 ### `~/paibo-research/results/16UE_traffic_20260826/`
-The previous six-use-case run. Confirmed **not to be overwritten** — it stays as-is. Its `README.md` already documents why it must not be treated as the final traffic-volume result: Web/Mobile used a ping fallback, VoD/LiveVideo delivered-side stats were lost to an iperf3 control-socket bug, and the measured byte-volume split (mMTC 0.03%, Web/Mobile 0.004% each, VoD 66.6%, Live 33.3%, V2X 0.017%) did not track the supervisor's targets at all — it was an artifact of running fixed, unequal-duration profiles (49s ping bursts alongside 30s super-high-rate iperf3 streams) with no attempt to hit a byte target.
+The previous six-use-case run. Confirmed **not to be overwritten** — it stays as-is. Its `README.md` already documents why it must not be treated as the final traffic-volume result: Web/Mobile used a ping fallback, VoD/LiveVideo delivered-side stats were lost to an iperf3 control-socket bug, and the measured byte-volume split (mMTC 0.03%, Web/Mobile 0.004% each, VoD 66.6%, Live 33.3%, V2X 0.017%) did not track the assigned targets at all — it was an artifact of running fixed, unequal-duration profiles (49s ping bursts alongside 30s super-high-rate iperf3 streams) with no attempt to hit a byte target.
 
 ### Excel workbook
 No `.xlsx` exists inside the WSL project tree. Two workbooks exist on the Windows side, in `Downloads/`:
@@ -76,7 +76,7 @@ Classified from the existing "KPI Availability" sheet in `PAIBO_Assignment_Resul
 
 ## PHASE 3 — Traffic model design (FINAL, per approved normalization)
 
-### Step 1: the supervisor's literal targets, unmodified
+### Step 1: the assigned literal targets, unmodified
 
 | Use case | UE-share (given) | Traffic-volume (given, literal) |
 |---|---|---|
@@ -88,7 +88,7 @@ Classified from the existing "KPI Availability" sheet in `PAIBO_Assignment_Resul
 | V2X | 5% | ~2% |
 | **Sum** | **100%** | **indeterminate, at most ~81%** |
 
-Literal sum of the volume column: `8 + 10 + 35 + 25 + 2 = 80%`, plus mMTC's upper bound of `1%` (treating "<1%" as `≈1%` for summation purposes) = **81%**. **The literal figures do not sum to 100% — there is an unexplained gap of ~19%.** Normalizing to 100% is therefore **an experimental assumption, not a fact from the supervisor's message**, documented here rather than silently applied.
+Literal sum of the volume column: `8 + 10 + 35 + 25 + 2 = 80%`, plus mMTC's upper bound of `1%` (treating "<1%" as `≈1%` for summation purposes) = **81%**. **The literal figures do not sum to 100% — there is an unexplained gap of ~19%.** Normalizing to 100% is therefore **an experimental assumption, not a fact from the original targets message**, documented here rather than silently applied.
 
 ### Step 2: normalization — APPROVED
 
